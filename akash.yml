@@ -7,6 +7,8 @@ services:
     expose:
       - port: 3001
         as: 80
+        accept:
+          - beacon.akashtest.net
         to:
           - global: true
 
