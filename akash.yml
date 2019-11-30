@@ -1,0 +1,29 @@
+---
+version: "1.0"
+
+services:
+  web:
+    image: akashnet/stats
+    expose:
+      - port: 3001
+        as: 80
+        to:
+          - global: true
+
+profiles:
+  compute:
+    web:
+      cpu: "0.25"
+      memory: "256Mi"
+      disk: "512Mi"
+
+  placement:
+    global:
+      pricing:
+        web: 500u
+
+deployment:
+  web:
+    global:
+      profile: web
+      count: 1
