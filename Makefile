@@ -17,6 +17,6 @@ image-push:
 	docker push $(IMG)
 
 image-run:
-	docker run --rm -p 3001 $(IMG)
+	docker run --rm -p 3001:3001 -e PORT=3001 $(IMG)
 
 .PHONY: bin clean
