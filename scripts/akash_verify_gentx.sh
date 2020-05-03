@@ -23,6 +23,7 @@ else
     ./akashd init --chain-id centauri testvalxyz --home $AKASH_HOME -o
 
     echo "..........Fetching genesis......."
+    rm -rf $AKASH_HOME/config/genesis.json
     curl -s https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json > $AKASH_HOME/config/genesis.json
 
     echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 900000000uakt --home $AKASH_HOME --keyring-backend test
