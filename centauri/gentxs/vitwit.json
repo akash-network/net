@@ -40,7 +40,7 @@
                "type":"tendermint/PubKeySecp256k1",
                "value":"A2CGvD8V3lls76y1iEaKn2xWQY2UOz7NH6kJtuWmlm7y"
             },
-            "signature":"NfSsws82aoHQZJjZ35r5hyZXH+IunoUxVUOsC3NPkXY2rZXxkmjbLhZmwxZ37tyQIzo04Osa95YXn7vr0brCDg=="
+            "signature":"NfSsws82aoHQZJjZ35r5hyZXH+IunoUxVUOsC3NPkXY2rZXxkmjbLhZmwxZ37tyQIzo04Osa95YXn7vr0brCDg899=="
          }
       ],
       "memo":"777681a88daa341d8b91f1432f3bfb009a724f0b@157.245.86.195:26656"
