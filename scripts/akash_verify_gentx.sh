@@ -5,18 +5,12 @@ set -e
 AKASH_HOME="/tmp/akash$(date +%s)"
 RANDOM_KEY="randomvalidatorkeyxx"
 
-rm -rf $AKASH_HOME &> /dev/null
-killall akashd &> /dev/null
-
 GENTX_FILE=$(ls centauri/gentxs -I gosuri.json | head -1)
 LEN_GENTX=$(echo ${#GENTX_FILE})
 
 if [ $LEN_GENTX -eq 0 ]; then
     echo "No new gentx file found."
 else
-    rm -rf $AKASH_HOME > /dev/null 2>&1
-    killall akashd > /dev/null 2>&1
-
     set -e
 
     echo "...........Init Akash.............."
