@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 AKASH_HOME="/tmp/akash$(date +%s)"
 
 GENTX_FILE=$(ls centauri/gentxs -I gosuri.json | head -1)
