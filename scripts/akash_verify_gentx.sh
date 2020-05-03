@@ -18,10 +18,9 @@ else
     rm akash_linux.zip
     cd akash_0.6.1_linux_amd64
 
-    ./akashd init akash --chain-id centauri --home $AKASH_HOME -o
     echo "12345678" | ./akashctl keys add $RANDOM_KEY
 
-    ./akashd init --chain-id centauri testvalxyz
+    ./akashd init --chain-id centauri testvalxyz --home $AKASH_HOME -o
 
     echo "..........Fetching genesis......."
     curl -s https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json > $AKASH_HOME/config/genesis.json
