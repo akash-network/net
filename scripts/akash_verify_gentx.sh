@@ -36,7 +36,7 @@ else
     echo "12345678" | ./akashd gentx --name $RANDOM_KEY  --home $AKASH_HOME --keyring-backend test
     cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
 
-    cat AKASH_HOME/config/genesis.json
+    cat $AKASH_HOME/config/genesis.json
 
     echo "..........Collecting gentxs......."
     ./akashd collect-gentxs --home $AKASH_HOME
