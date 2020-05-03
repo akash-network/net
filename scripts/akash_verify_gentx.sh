@@ -19,8 +19,7 @@ else
     cd akash_0.6.1_linux_amd64
 
     ./akashd init akash --chain-id centauri --home $AKASH_HOME -o
-    echo "y" | ./akashctl keys add $RANDOM_KEY
-
+    echo "12345678" | ./akashctl keys add $RANDOM_KEY
 
     ./akashd init --chain-id centauri testvalxyz
 
