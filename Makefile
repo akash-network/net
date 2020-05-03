@@ -20,3 +20,8 @@ image-run:
 	docker run --rm -p 3001:3001 -e PORT=3001 $(IMG)
 
 .PHONY: bin clean
+
+verify-gentx:
+	bash -x ./scripts/akash_verify_gentx.sh
+	
+.PHONY: verify-gentx
