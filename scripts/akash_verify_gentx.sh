@@ -27,10 +27,10 @@ else
 
     echo $GENACC
 
-    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 1000000000uakt --home $AKASH_HOME --keyring-backend test
+    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 1000000000000uakt --home $AKASH_HOME --keyring-backend test
     ./akashd add-genesis-account $GENACC 1000000000uakt --home $AKASH_HOME
 
-    echo "12345678" | ./akashd gentx --name $RANDOM_KEY  --home $AKASH_HOME --keyring-backend test
+    echo "12345678" | ./akashd gentx --name $RANDOM_KEY --amount 900000000000uakt --home $AKASH_HOME --keyring-backend test
     cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
 
     cat $AKASH_HOME/config/genesis.json
