@@ -22,4 +22,6 @@ image-run:
 .PHONY: bin clean
 
 verify-gentx:
-	sh akash_verify_gentx.sh
+	bash -x akash_verify_gentx.sh
+	
+.PHONY: verify-gentx
