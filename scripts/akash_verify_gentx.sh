@@ -29,9 +29,10 @@ else
 
     cp centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
 
-    ./akashd add-genesis-account $RANDOM_KEY 9000000uakt --home $AKASH_HOME
+    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 9000000uakt --home $AKASH_HOME
     ./akashd add-genesis-account $(cat centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
 
+    echo "12345678" | ./akashd gentx --name $RANDOM_KEY
     echo "..........Collecting gentxs......."
     ./akashd collect-gentxs --home $AKASH_HOME
     sed -i '/persistent_peers =/c\persistent_peers = ""' $AKASH_HOME/config/config.toml
