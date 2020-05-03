@@ -14,3 +14,8 @@ jobs:
         with:
           message: "Invalid Gentx. Please create a new Gentx"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ !failure() }}
+        uses: mshick/add-pr-comment@v1
+        with:
+          message: "Valid Gentx. Thank you!"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
