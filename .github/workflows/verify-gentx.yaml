@@ -12,5 +12,5 @@ jobs:
         if: ${{ failure() }}
         uses: mshick/add-pr-comment@v1
         with:
-          message: "Gentx verification failed"
+          message: "Invalid Gentx. Please create a new Gentx"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
