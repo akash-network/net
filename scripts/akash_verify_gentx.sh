@@ -39,6 +39,8 @@ else
     ./akashd collect-gentxs --home $AKASH_HOME
     sed -i '/persistent_peers =/c\persistent_peers = ""' $AKASH_HOME/config/config.toml
 
+    ./akashd validate-genesis --home $AKASH_HOME
+
     echo "..........Starting node......."
     ./akashd start --home $AKASH_HOME &> /dev/null
 
