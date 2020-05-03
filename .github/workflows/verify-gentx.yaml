@@ -1,0 +1,11 @@
+name: Gentx
+on: [pull_request]
+jobs:
+  verify-gentx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: gentx-validation
+        run: |
+          make verify-gentx
+        if: "env.GIT_DIFF != ''"
