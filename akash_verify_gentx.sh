@@ -11,35 +11,30 @@ else
     rm -rf $AKASH_HOME > /dev/null 2>&1
     killall akashd > /dev/null 2>&1
 
-    echo "...........Installing Akash.............."
-    curl -L https://github.com/ovrclk/akash/releases/download/v0.6.1/akash_0.6.1_linux_amd64.zip -o akash_linux.zip && unzip akash_linux.zip
-    rm akash_linux.zip
-    cd akash_0.6.1_linux_amd64
-
     set -e
 
     echo "...........Init akash......."
-    ./akashd init akash --chain-id centauri --home $AKASH_HOME -o
+    ./bins/akashd init akash --chain-id centauri --home $AKASH_HOME -o
 
     echo "..........Fetching genesis......."
     curl -s https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json > $AKASH_HOME/config/genesis.json
 
     mkdir $AKASH_HOME/config/gentx
-    cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
-    ./akashd add-genesis-account $(cat ../centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
+    cp centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
+    ./bins/akashd add-genesis-account $(cat centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
 
     echo "..........Collecting gentxs......."
-    ./akashd collect-gentxs --home $AKASH_HOME
+    ./bins/akashd collect-gentxs --home $AKASH_HOME
     sed -i '/persistent_peers =/c\persistent_peers = ""' $AKASH_HOME/config/config.toml
 
     echo "..........Starting node......."
-    ./akashd start --home $AKASH_HOME &> /dev/null
+    ./bins/akashd start --home $AKASH_HOME &> /dev/null
 
     sleep 2s
 
     echo "...checking network status.."
 
-    ./akashctl status --chain-id centauri
+    ./bins/akashctl status --chain-id centauri
 
     echo "...Cleaning the stuff..."
     killall akashd > /dev/null 2>&1
