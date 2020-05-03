@@ -1,7 +1,4 @@
 #!/bin/sh
-
-set -e
-
 AKASH_HOME="/tmp/akash$(date +%s)"
 AKASHCTL_HOME="/tmp/akashctl$(date +%s)"
 RANDOM_KEY="randomvalidatorkeyxx"
@@ -31,19 +28,19 @@ else
 
     echo $GENACC
 
-    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 1000000000uakt --home $AKASH_HOME \
+    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 1000000000000uakt --home $AKASH_HOME \
         --keyring-backend test --home-client $AKASHCTL_HOME
     ./akashd add-genesis-account $GENACC 1000000000uakt --home $AKASH_HOME
 
-    echo "12345678" | ./akashd gentx --name $RANDOM_KEY --amount 900000000uakt --home $AKASH_HOME \
+    echo "12345678" | ./akashd gentx --name $RANDOM_KEY --amount 900000000000uakt --home $AKASH_HOME \
         --keyring-backend test --home-client $AKASHCTL_HOME
     cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
-
-    cat $AKASH_HOME/config/genesis.json
 
     echo "..........Collecting gentxs......."
     ./akashd collect-gentxs --home $AKASH_HOME
     sed -i '/persistent_peers =/c\persistent_peers = ""' $AKASH_HOME/config/config.toml
+
+    ./akashd validate-genesis --home $AKASH_HOME
 
     echo "..........Starting node......."
     ./akashd start --home $AKASH_HOME &
