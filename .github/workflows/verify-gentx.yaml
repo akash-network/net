@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: gentx-validation
         run: |
-          bash -x akash_verify_gentx.sh
+          bash -x ./scripts/akash_verify_gentx.sh
