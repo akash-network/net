@@ -18,7 +18,7 @@ else
     rm akash_linux.zip
     cd akash_0.6.1_linux_amd64
 
-    echo "12345678" | ./akashctl keys add $RANDOM_KEY
+    echo "12345678" | ./akashctl keys add $RANDOM_KEY --keyring-backend test
 
     ./akashd init --chain-id centauri testvalxyz --home $AKASH_HOME -o
 
@@ -27,10 +27,10 @@ else
 
     cp centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
 
-    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 9000000uakt --home $AKASH_HOME
+    echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 9000000uakt --home $AKASH_HOME --keyring-backend test
     ./akashd add-genesis-account $(cat centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
 
-    echo "12345678" | ./akashd gentx --name $RANDOM_KEY
+    echo "12345678" | ./akashd gentx --name $RANDOM_KEY --keyring-backend test
     echo "..........Collecting gentxs......."
     ./akashd collect-gentxs --home $AKASH_HOME
     sed -i '/persistent_peers =/c\persistent_peers = ""' $AKASH_HOME/config/config.toml
