@@ -7,5 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: gentx-validation
         run: |
-          make verify-gentx
-        if: "env.GIT_DIFF != ''"
+          bash -x akash_verify_gentx.sh
