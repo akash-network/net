@@ -40,7 +40,7 @@ else
     ./akashd validate-genesis --home $AKASH_HOME
 
     echo "..........Starting node......."
-    ./akashd start --home $AKASH_HOME &> /dev/null
+    ./akashd start --home $AKASH_HOME &
 
     sleep 5s
 
