@@ -26,7 +26,7 @@ else
     curl -s https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json > $AKASH_HOME/config/genesis.json
 
     echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 9000000uakt --home $AKASH_HOME --keyring-backend test
-    ./akashd add-genesis-account $(cat centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
+    ./akashd add-genesis-account $(cat ../centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p') 9000000uakt --home $AKASH_HOME
 
     echo "12345678" | ./akashd gentx --name $RANDOM_KEY --keyring-backend test
     cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
