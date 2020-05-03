@@ -1,7 +1,4 @@
 #!/bin/sh
-
-set -e
-
 AKASH_HOME="/tmp/akash$(date +%s)"
 RANDOM_KEY="randomvalidatorkeyxx"
 
