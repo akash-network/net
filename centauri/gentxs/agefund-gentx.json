@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "AGE Networks",
+            "identity": "",
+            "website": "https://age.network",
+            "security_contact": "",
+            "details": "Stake with AGE to support Akash Network"
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.200000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "akash1lwk3e88n6psqqfw68pamkv5m9xveutkv58d5af",
+          "validator_address": "akashvaloper1lwk3e88n6psqqfw68pamkv5m9xveutkv79rjdr",
+          "pubkey": "akashvalconspub1zcjduepq7gpp4u62jsh07q0g3unrk4qzhwhheaekdp6alhzyuqd9n478h6vsm6n0ff",
+          "value": {
+            "denom": "uakt",
+            "amount": "9000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Aq5/XYrkYAvNUJ9nH7JR4QkO8T1aZ7B2Qq4iK1YyY+aq"
+        },
+        "signature": "3fnw+vc7IuL096ynFrHgB+OQRpNnntGciHvk+8WnfAcgwczXCfgSyjmeTPCmX+jk58FG2kd3fTBQQSCje9hu2g=="
+      }
+    ],
+    "memo": "c54a33a68644ee6b20f3082e2cc4dbaf59da2b66@10.0.22.173:26656"
+  }
+}
