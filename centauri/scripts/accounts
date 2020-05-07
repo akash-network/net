@@ -1,0 +1,10 @@
+#!/bin/bash
+
+path=gentxs/*.json
+
+for f in $path; do
+  addr="$(cat $f | jq '.value.msg[0].value.delegator_address')"
+  cmd="akashd add-genesis-account $addr 10000000uakt"
+  echo $cmd
+  eval $cmd
+done
