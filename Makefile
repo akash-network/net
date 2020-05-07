@@ -23,5 +23,8 @@ image-run:
 
 verify-gentx:
 	bash -x ./scripts/akash_verify_gentx.sh
+
+seed-node:
+	bash -x ./scripts/seed_node_setup.sh
 	
 .PHONY: verify-gentx
