@@ -19,6 +19,17 @@
   },
   "app_hash": "",
   "app_state": {
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
     "genutil": {
       "gentxs": [
         {
@@ -1445,6 +1456,52 @@
               }
             ],
             "memo": "c54a33a68644ee6b20f3082e2cc4dbaf59da2b66@10.0.22.173:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "akash-validator",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "akash1753ew9z7cfhu6awyp6ff7qtm9ex30kg3fuvtwc",
+                  "validator_address": "akashvaloper1753ew9z7cfhu6awyp6ff7qtm9ex30kg3r7zd7j",
+                  "pubkey": "akashvalconspub1zcjduepqdjfgcuppzp9geqj83t8nntsd04gjkwqa6sxtw63aavj8rfp3jxks4pddv7",
+                  "value": {
+                    "denom": "uakt",
+                    "amount": "9000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AyOwAn+XiF4WtI4N0wLW6f7rw1/6laUomqFoQ6TcXhNs"
+                },
+                "signature": "9RUD//Mh9y6nQWZGqYUXS1cvO8h4CCeu7iANBkwKO7JaV7Hdd93Db/AHfHeuVPle9U3y0hxq8cwx+TbDZgG7Pg=="
+              }
+            ],
+            "memo": "42b56fa219ca6800f3b20bd117a8510c62e05d61@10.88.203.129:26656"
           }
         },
         {
@@ -4577,34 +4634,11 @@
         }
       ]
     },
-    "deployment": {
-      "deployments": null
-    },
-    "gov": {
-      "starting_proposal_id": "1",
-      "deposits": null,
-      "votes": null,
-      "proposals": null,
-      "deposit_params": {
-        "min_deposit": [
-          {
-            "denom": "uakt",
-            "amount": "10000000"
-          }
-        ],
-        "max_deposit_period": "172800000000000"
-      },
-      "voting_params": {
-        "voting_period": "172800000000000"
-      },
-      "tally_params": {
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto": "0.334000000000000000"
+    "crisis": {
+      "constant_fee": {
+        "denom": "uakt",
+        "amount": "1000"
       }
-    },
-    "provider": {
-      "providers": null
     },
     "staking": {
       "params": {
@@ -4622,49 +4656,6 @@
       "redelegations": null,
       "exported": false
     },
-    "upgrade": {},
-    "params": null,
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "uakt",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "bank": {
-      "send_enabled": true
-    },
-    "slashing": {
-      "params": {
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
-    "crisis": {
-      "constant_fee": {
-        "denom": "uakt",
-        "amount": "1000"
-      }
-    },
-    "supply": {
-      "supply": []
-    },
-    "market": {
-      "orders": null,
-      "leases": null
-    },
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -4678,6 +4669,21 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "address": "akash1lwk3e88n6psqqfw68pamkv5m9xveutkv58d5af",
+            "coins": [
+              {
+                "denom": "uakt",
+                "amount": "10000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "akash1753ew9z7cfhu6awyp6ff7qtm9ex30kg3fuvtwc",
             "coins": [
               {
                 "denom": "uakt",
@@ -6224,6 +6230,61 @@
       "validator_current_rewards": [],
       "delegator_starting_infos": [],
       "validator_slash_events": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "uakt",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "provider": {
+      "providers": null
+    },
+    "deployment": {
+      "deployments": null
+    },
+    "params": null,
+    "market": {
+      "orders": null,
+      "leases": null
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uakt",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "upgrade": {},
+    "supply": {
+      "supply": []
     }
   }
 }
