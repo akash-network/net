@@ -23,5 +23,8 @@ image-run:
 
 verify-gentx:
 	bash -x ./scripts/akash_verify_gentx.sh
+
+genesis:
+	bash -x ./scripts/generate-genesis.sh
 	
 .PHONY: verify-gentx
