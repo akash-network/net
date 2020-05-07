@@ -5,7 +5,7 @@ export CHAINID=centauri
 export DAEMON=akashd
 export CLI=akashctl
 export PERSISTENT_PEERS="b29c405d575b76795150cf9b26e44a7b51e72dd8@157.245.119.72:26656,c7c3f86b35dee13958190b301f7f3b8de137fa9e@167.71.138.117:26656"
-export GENESIS_URL="https://raw.githubusercontent.com/ovrclk/net/centauri-genesis/centauri/genesis.json"
+export GENESIS_URL="https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json"
 export AKASH_URL="https://github.com/ovrclk/akash/releases/download/v0.6.1/akash_0.6.1_linux_amd64.deb"
 
 rm -rf ~/.$DAEMON
