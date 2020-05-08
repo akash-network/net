@@ -24,6 +24,9 @@ image-run:
 verify-gentx:
 	bash -x ./scripts/akash_verify_gentx.sh
 
+seed-node:
+	bash -x ./scripts/seed_node_setup.sh
+	
 genesis:
 	bash -x ./scripts/generate-genesis.sh
 	
