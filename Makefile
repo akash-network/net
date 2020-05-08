@@ -27,4 +27,7 @@ verify-gentx:
 seed-node:
 	bash -x ./scripts/seed_node_setup.sh
 	
+genesis:
+	bash -x ./scripts/generate-genesis.sh
+	
 .PHONY: verify-gentx
