@@ -6,8 +6,8 @@ RANDOM_KEY="randomvalidatorkeyxx"
 GENTX_FILE=$(ls centauri/gentxs -I gosuri.json | head -1)
 LEN_GENTX=$(echo ${#GENTX_FILE})
 
-GENTX_DEADLINE=$(date -d 2020-May-06 16:00:00 +"%Y%m%d H:M:S")
-now=$(date +"%Y%m%d H:M:S")  
+GENTX_DEADLINE=$(date -d 2020-May-06 16:00:00)
+now=$(date)
 
 if [ $GENTX_DEADLINE -ge $now ]; then
     echo 'Gentx submission is closed';
