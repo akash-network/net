@@ -9,7 +9,7 @@ LEN_GENTX=$(echo ${#GENTX_FILE})
 GENTX_DEADLINE=$(date -d 2020-May-06 16:00:00 +"%Y%m%d H:M:S")
 now=$(date +"%Y%m%d H:M:S")  
 
-if [ $GENTX_DEADLINE -le $now ]; then
+if [ $GENTX_DEADLINE -ge $now ]; then
     echo 'Gentx submission is closed';
 else if [ $LEN_GENTX -eq 0 ]; then
     echo "No new gentx file found."
