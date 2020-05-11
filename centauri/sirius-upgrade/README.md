@@ -20,7 +20,7 @@ Centauri network launch was smooth, the first block was produced within 2 second
 | Voting Start Time | 2020-05-12 16:00 UTC |
 | Voting End Time | 2020-05-13 16:00 UTC |
 | Network Upgrade Time | 15 May, 16:00 UTC |
-| Link | https://akash.aneka.io/proposals/1 |   
+| Link | https://akash.aneka.io/proposals/2 |   
 
 ## Querying the proposal
 
