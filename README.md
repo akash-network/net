@@ -16,7 +16,7 @@ To get started with the latest testnet, see the [testnet guide](https://docs.aka
 
 ## Seed nodes
 
-seed.akash.easy2stake.com:26696
+99093d68e4cf509db80f1fc48a9b8e50a29ce62a@seed.akash.easy2stake.com:26696
 
 ## LCD nodes
 
