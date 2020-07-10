@@ -1,1 +1,1 @@
-testnet-v2
+testnet-v3
