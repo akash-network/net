@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2020-07-09T22:49:46.949126106Z",
-  "chain_id": "testnet-v3",
+  "genesis_time": "2020-08-01T13:16:34.482655812Z",
+  "chain_id": "testnet-v4",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -19,11 +19,14 @@
   },
   "app_hash": "",
   "app_state": {
-    "evidence": {
-      "params": {
-        "max_evidence_age": "120000000000"
-      },
-      "evidence": []
+    "deployment": {
+      "deployments": null
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "provider": {
+      "providers": null
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -48,6 +51,9 @@
         "veto": "0.334000000000000000"
       }
     },
+    "supply": {
+      "supply": []
+    },
     "slashing": {
       "params": {
         "signed_blocks_window": "100",
@@ -59,6 +65,57 @@
       "signing_infos": {},
       "missed_blocks": {}
     },
+    "evidence": {
+      "params": {
+        "max_evidence_age": "120000000000"
+      },
+      "evidence": []
+    },
+    "params": null,
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "akash",
+        "amount": "1000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "akash",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "market": {
+      "orders": null,
+      "leases": null
+    },
+    "upgrade": {},
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -71,7 +128,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash17rdekalyu74nrtkdl8ma48w8r7p5vsy60h2eaf",
+            "address": "akash13setdfekyr8nlmxmkxz8zwzd0hrpxnt40rcxw0",
             "coins": [
               {
                 "denom": "akash",
@@ -86,7 +143,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1ruptwgwquj26uewt2hf48nrhff3wc2k68ae6ac",
+            "address": "akash18a6a4cwj2cy3ldfwlpgw3g5w9r0u7yj6e73q7p",
             "coins": [
               {
                 "denom": "akash",
@@ -101,7 +158,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1qykqm2lkltf64u2hv8vykxzu3yuk96swnastga",
+            "address": "akash1tjfqygxytyawxmvlxv7xl3qkkygjpv9dwn9em7",
             "coins": [
               {
                 "denom": "akash",
@@ -116,7 +173,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash14l3xz3vr4h3yuqny2akdk4sad40atzm06p8q05",
+            "address": "akash18l7tm8p28ps7p6nwvtn0ngwcht3s2w4rql0qpl",
             "coins": [
               {
                 "denom": "akash",
@@ -131,7 +188,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1vtjcxw35zmkg9gr6cx0rc066evvs6xmmqrs4f5",
+            "address": "akash1z0qm4y06w68eelzd4u9fu8w7rrj9dej2dj875x",
             "coins": [
               {
                 "denom": "akash",
@@ -146,7 +203,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash19g57r4wgscczs35n4j5ml5c89sw8usuehc5lgj",
+            "address": "akash13v6gee6x7zvhhkamwjmq43tqg6ddq8kghtxgy8",
             "coins": [
               {
                 "denom": "akash",
@@ -161,7 +218,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1guehe93dwlm5sj6q8du5ac7gthxmrrvduxnyv5",
+            "address": "akash1jren8l6tt9ynf8w8y67dmell48pmy5suy23j95",
             "coins": [
               {
                 "denom": "akash",
@@ -176,7 +233,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1xw6e2prcf3j0j4w3dpax8fnpaucgvgsqnmsq0x",
+            "address": "akash1u0c64p5mcw2v9grzswy649gcncxyqryk8y2ktt",
             "coins": [
               {
                 "denom": "akash",
@@ -191,7 +248,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1rncywtae7nvhe7c7e0uf68rkpl7kjgaafesvhw",
+            "address": "akash1l56zn0jk0rxe5rk5uhc4uzz24dd9dhuwr0ujy6",
             "coins": [
               {
                 "denom": "akash",
@@ -206,7 +263,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash14vknyfk0f0ej762enr00qht98636ljw0wws3wl",
+            "address": "akash14uk4jpz677sfvzmpgtmcmtcwjeauparz8dxx4y",
             "coins": [
               {
                 "denom": "akash",
@@ -221,7 +278,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1fpztma2angmau7gkp07nxxkfcyfqcckh9akp58",
+            "address": "akash125df756vzmwds80z92qe9z6gvyyxkshnkglzwv",
             "coins": [
               {
                 "denom": "akash",
@@ -1736,6 +1793,21 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
+            "address": "akash1czxh6ewhuy00tsv5zu50gz7lz2cxcpufdrarty",
+            "coins": [
+              {
+                "denom": "akash",
+                "amount": "1000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
             "address": "akash1pxc9r4xcynfgkeyp4vk32hghwws82eepfwgaqy",
             "coins": [
               {
@@ -1766,22 +1838,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1czxh6ewhuy00tsv5zu50gz7lz2cxcpufdrarty",
-            "coins": [
-              {
-                "denom": "akash",
-                "amount": "250000000000"
-              }
-            ],
-            "public_key": "",
-            "account_number": 0,
-            "sequence": 0
-          }
-        },
-        {
-          "type": "cosmos-sdk/Account",
-          "value": {
-            "address": "akash1kmpakgntsa3xzzqgrtlgcwk072tjqjwucdacf8",
+            "address": "akash17mwunaqj6zjuqmxt3ek5q4v5c3wm8pqjetmlgr",
             "coins": [
               {
                 "denom": "akash",
@@ -1796,7 +1853,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1u2yywyye42vj8mmhdwsnxmx36taxd2h0lp86qg",
+            "address": "akash1gl69ewlqqlfczfm8r6p7p5qkl8awrkx0jl9a6d",
             "coins": [
               {
                 "denom": "akash",
@@ -1811,7 +1868,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1uzss74z4hqx63dt5cs3tgwmd3efjrlye423yan",
+            "address": "akash1n2dpzlx4y2lsnvvzsa7np00a4kddm62w7lufvn",
             "coins": [
               {
                 "denom": "akash",
@@ -1826,7 +1883,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "akash1rfdg4jlj30524530s5fv4pgwkh20e33p9u8n0a",
+            "address": "akash1zh0x62sd4t8aqajykg30qa95r40a2daa6ryzuv",
             "coins": [
               {
                 "denom": "akash",
@@ -1839,12 +1896,6 @@
           }
         }
       ]
-    },
-    "provider": {
-      "providers": null
-    },
-    "deployment": {
-      "deployments": null
     },
     "staking": {
       "params": {
@@ -1862,59 +1913,54 @@
       "redelegations": null,
       "exported": false
     },
-    "upgrade": {},
-    "supply": {
-      "supply": []
-    },
-    "bank": {
-      "send_enabled": true
-    },
-    "params": null,
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "akash",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "distribution": {
-      "params": {
-        "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
-        "withdraw_addr_enabled": true
-      },
-      "fee_pool": {
-        "community_pool": []
-      },
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "crisis": {
-      "constant_fee": {
-        "denom": "akash",
-        "amount": "1000"
-      }
-    },
-    "market": {
-      "orders": null,
-      "leases": null
-    },
     "genutil": {
       "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "validator-1",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "akash17mwunaqj6zjuqmxt3ek5q4v5c3wm8pqjetmlgr",
+                  "validator_address": "akashvaloper17mwunaqj6zjuqmxt3ek5q4v5c3wm8pqjnf4ecf",
+                  "pubkey": "akashvalconspub1zcjduepqa2lkk07p43a7clurtglmewmceqjqurz5dj59374vzttx9pn607ws3tkn9h",
+                  "value": {
+                    "denom": "akash",
+                    "amount": "500000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A6dZlg33hAwdQldC/eitNSHRpLmBmLRChveWQlG5nLeb"
+                },
+                "signature": "YmfOZ8PYKZglWlz5tDeRT4ADVDjgCgXuw3GS/WwrmJtWrqxD4BRS2yhxt4qyAWa4l7+Gp0AcOqcPc4jGdh90lw=="
+              }
+            ],
+            "memo": "8ee235ee7d88f21d0ff86f1959d2a3ea1ce6b60e@192.168.1.10:26656"
+          }
+        },
         {
           "type": "cosmos-sdk/StdTx",
           "value": {
@@ -1935,9 +1981,9 @@
                     "max_change_rate": "0.010000000000000000"
                   },
                   "min_self_delegation": "1",
-                  "delegator_address": "akash1u2yywyye42vj8mmhdwsnxmx36taxd2h0lp86qg",
-                  "validator_address": "akashvaloper1u2yywyye42vj8mmhdwsnxmx36taxd2h04rfusz",
-                  "pubkey": "akashvalconspub1zcjduepqj0j59xq5jg3zwazkm3z4z039kpwg0d98p7gshh9ujglc8zxkspgq3rresx",
+                  "delegator_address": "akash1gl69ewlqqlfczfm8r6p7p5qkl8awrkx0jl9a6d",
+                  "validator_address": "akashvaloper1gl69ewlqqlfczfm8r6p7p5qkl8awrkx0catm28",
+                  "pubkey": "akashvalconspub1zcjduepqde55u60k8dwyl2ff5e6wpmgl9t0kayzey7n458gqzd6nme2z200s977rzx",
                   "value": {
                     "denom": "akash",
                     "amount": "500000000000"
@@ -1953,12 +1999,12 @@
               {
                 "pub_key": {
                   "type": "tendermint/PubKeySecp256k1",
-                  "value": "A6FtcExyXgXZG828uIeNJOxv2rLY/jz4QSEg928jDZUp"
+                  "value": "AtTz3/Qoeo38yu1pDtJ5w2+8XMZhrsNRIrUmh8Y0/73H"
                 },
-                "signature": "9BF0t+hjQtZwCEq1qjBlURr+9phoQTm2h1xEtyyz6n8WM2ZyBAgkjIeC1ObVE3PmjFkcM8upJyOr2evOgkkypw=="
+                "signature": "5R04bRFJGnpJpKkLROwVEw8jR2X7E7mriUppt+bUhepiTbBPUyHqf3To3ia9e2OoT+oKHmUWo3Ed/OAIERWk1Q=="
               }
             ],
-            "memo": "07d1283906adbd97adfc1bbf10d0f35c84c3e867@192.168.1.10:26656"
+            "memo": "9a49b8276fcf785c5d8c4f85141244d04af6899e@192.168.1.10:26656"
           }
         },
         {
@@ -1981,9 +2027,9 @@
                     "max_change_rate": "0.010000000000000000"
                   },
                   "min_self_delegation": "1",
-                  "delegator_address": "akash1rfdg4jlj30524530s5fv4pgwkh20e33p9u8n0a",
-                  "validator_address": "akashvaloper1rfdg4jlj30524530s5fv4pgwkh20e33p07f4lh",
-                  "pubkey": "akashvalconspub1zcjduepqvqftlzz24afhythwqvfm5mz8y7n950l8v7utl4n0f28v3t0p9rlseur3qe",
+                  "delegator_address": "akash1zh0x62sd4t8aqajykg30qa95r40a2daa6ryzuv",
+                  "validator_address": "akashvaloper1zh0x62sd4t8aqajykg30qa95r40a2daasp2yvx",
+                  "pubkey": "akashvalconspub1zcjduepqy53h5rctkp2vt3a9uhgz8tgvry9e27cc3a2k2n0z6yjlzjwe6mts2r0lk9",
                   "value": {
                     "denom": "akash",
                     "amount": "500000000000"
@@ -1999,12 +2045,12 @@
               {
                 "pub_key": {
                   "type": "tendermint/PubKeySecp256k1",
-                  "value": "A4K1B9+H5t3mF0L/WZc325oJnhl/LkVdUu0DQKx6MO/Y"
+                  "value": "A17NCSsGWuAKDFFllOZwJ6xivUt8I3V3ZYxMWg8b+FOH"
                 },
-                "signature": "awYU8RSZcvKOJk+uNAryDaEI2+Ri8wWFqb8eMhL114hTJQJ0nzyGM/1CwqVQwqPQYIeir2CQB64gzZ0PdjGdyw=="
+                "signature": "Rgj3R2HXlmjetE6AFwjq7EWS2h5Xg+lJ+xiO/I2l3KF0KhzET5PJEO68YHzxRQ7TZcMx/NVJ9lfwY7GUdLUY3Q=="
               }
             ],
-            "memo": "4ad57e744c88c5bdc06c84419492854d139a37d5@192.168.1.10:26656"
+            "memo": "c2b725ff9af619418c48f3bc23a1ded353c7c4c8@192.168.1.10:26656"
           }
         },
         {
@@ -2027,9 +2073,9 @@
                     "max_change_rate": "0.010000000000000000"
                   },
                   "min_self_delegation": "1",
-                  "delegator_address": "akash1uzss74z4hqx63dt5cs3tgwmd3efjrlye423yan",
-                  "validator_address": "akashvaloper1uzss74z4hqx63dt5cs3tgwmd3efjrlyelglzde",
-                  "pubkey": "akashvalconspub1zcjduepqqc88pzmsz9n7267m4yj26fdkqhw239w0yshhga68mgudvnjh3lsqxjjdsa",
+                  "delegator_address": "akash1n2dpzlx4y2lsnvvzsa7np00a4kddm62w7lufvn",
+                  "validator_address": "akashvaloper1n2dpzlx4y2lsnvvzsa7np00a4kddm62w5aj0ue",
+                  "pubkey": "akashvalconspub1zcjduepqddj89jmzreq3a5slth48k48fj6tzrwg7ygfqg2cwzprcjmd883js58gczv",
                   "value": {
                     "denom": "akash",
                     "amount": "500000000000"
@@ -2045,58 +2091,12 @@
               {
                 "pub_key": {
                   "type": "tendermint/PubKeySecp256k1",
-                  "value": "A0AS0x8BekZpkSnf8BCUZdW+gCN83ZQWPvwaLOFlcib+"
+                  "value": "AtQ1efwJkCrwQQ0ZKiOtufdcrHehNzCWG9+bOcIZbtax"
                 },
-                "signature": "5m3m3+j2PdnUwjr4ZpOKDh9b/kF7u/wMsh8TLWzPB1pXfWoAIN2p1S5Nai9j9twIDvguyEm75ceaOZu7QKBuuA=="
+                "signature": "o8cuzHbKrfF8fQ3Tx1a+JjTqhx/MrTTMJEGgJwadV4pBa1kLeP5Jai8T1a5xvWqnrYlpakTWyaNe9+XEP4ia1Q=="
               }
             ],
-            "memo": "72424520695fc9f11b78de4c157eb35636c9569f@192.168.1.10:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "validator-1",
-                    "identity": "",
-                    "website": "",
-                    "security_contact": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "akash1kmpakgntsa3xzzqgrtlgcwk072tjqjwucdacf8",
-                  "validator_address": "akashvaloper1kmpakgntsa3xzzqgrtlgcwk072tjqjwuj0n7ed",
-                  "pubkey": "akashvalconspub1zcjduepqswhzhyv2vwp0pktccru8xn67dqcchzlfmfapmkc568dz4q67w9yqg2slur",
-                  "value": {
-                    "denom": "akash",
-                    "amount": "500000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A384VMH9GGetcTLDxpwkAef8o13+kYm/VbzLfgoja0q2"
-                },
-                "signature": "VnprVrn8+HqgARWnTJqWzJO8h2Te3EtwWg4SGNrK21lepQcNTfr6cJNintJG2bonh6hWvmJJTRo36p39m4WlMg=="
-              }
-            ],
-            "memo": "e2bcc0014b715510924d3dad8ed737cdb14fee77@192.168.1.10:26656"
+            "memo": "f38a6146e3100dcf7c76fa1b921319a13db90325@192.168.1.10:26656"
           }
         }
       ]
