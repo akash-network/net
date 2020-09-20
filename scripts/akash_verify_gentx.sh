@@ -29,7 +29,7 @@ else
 
     echo "..........Fetching genesis......."
     rm -rf $AKASH_HOME/config/genesis.json
-    curl -s https://raw.githubusercontent.com/ovrclk/net/master/akashnet-1/genesis.json > $AKASH_HOME/config/genesis.json
+    curl -s https://raw.githubusercontent.com/ovrclk/net/master/$CHAIN_ID/genesis.json > $AKASH_HOME/config/genesis.json
 
     GENACC=$(cat ../$CHAIN_ID/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p')
 
