@@ -2,8 +2,9 @@
 AKASH_HOME="/tmp/akash$(date +%s)"
 AKASHCTL_HOME="/tmp/akashctl$(date +%s)"
 RANDOM_KEY="randomvalidatorkeyxx"
+CHAIN_ID=akashnet-1
 
-GENTX_FILE=$(ls centauri/gentxs -I gosuri.json | head -1)
+GENTX_FILE=$(ls $CHAIN_ID/gentxs | head -1)
 LEN_GENTX=$(echo ${#GENTX_FILE})
 
 GENTX_DEADLINE=$(date -d '2020-05-06 16:00:00' '+%d/%m/%Y %H:%M:%S');
@@ -18,19 +19,19 @@ else
     set -e
 
     echo "...........Init Akash.............."
-    curl -L https://github.com/ovrclk/akash/releases/download/v0.6.1/akash_0.6.1_linux_amd64.zip -o akash_linux.zip && unzip akash_linux.zip
+    curl -L https://github.com/ovrclk/akash/releases/download/v0.8.1/akash_0.8.1_linux_amd64.zip -o akash_linux.zip && unzip akash_linux.zip
     rm akash_linux.zip
-    cd akash_0.6.1_linux_amd64
+    cd akash_0.8.1_linux_amd64
 
     echo "12345678" | ./akashctl keys add $RANDOM_KEY --keyring-backend test --home $AKASHCTL_HOME
 
-    ./akashd init --chain-id centauri testvalxyz --home $AKASH_HOME -o
+    ./akashd init --chain-id $CHAIN_ID akashvalidator --home $AKASH_HOME -o
 
     echo "..........Fetching genesis......."
     rm -rf $AKASH_HOME/config/genesis.json
-    curl -s https://raw.githubusercontent.com/ovrclk/net/master/centauri/genesis.json > $AKASH_HOME/config/genesis.json
+    curl -s https://raw.githubusercontent.com/ovrclk/net/master/$CHAIN_ID/genesis.json > $AKASH_HOME/config/genesis.json
 
-    GENACC=$(cat ../centauri/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p')
+    GENACC=$(cat ../$CHAIN_ID/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p')
 
     echo $GENACC
 
@@ -40,7 +41,7 @@ else
 
     echo "12345678" | ./akashd gentx --name $RANDOM_KEY --amount 900000000000uakt --home $AKASH_HOME \
         --keyring-backend test --home-client $AKASHCTL_HOME
-    cp ../centauri/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
+    cp ../$CHAIN_ID/gentxs/$GENTX_FILE $AKASH_HOME/config/gentx/
 
     echo "..........Collecting gentxs......."
     ./akashd collect-gentxs --home $AKASH_HOME
@@ -55,7 +56,7 @@ else
 
     echo "...checking network status.."
 
-    ./akashctl status --chain-id centauri
+    ./akashctl status --chain-id $CHAIN_ID
 
     echo "...Cleaning the stuff..."
     killall akashd >/dev/null 2>&1
