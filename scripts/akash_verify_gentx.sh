@@ -20,7 +20,7 @@ else
 
     echo "...........Init Akash.............."
     curl -L https://github.com/ovrclk/akash/releases/download/v0.8.1/akash_0.8.1_linux_amd64.zip -o akash_linux.zip && unzip akash_linux.zip
-    rm akash_linux.ziptt
+    rm akash_linux.zip
     cd akash_0.8.1_linux_amd64
 
     echo "12345678" | ./akashctl keys add $RANDOM_KEY --keyring-backend test --home $AKASHCTL_HOME
