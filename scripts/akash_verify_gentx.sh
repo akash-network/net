@@ -31,6 +31,8 @@ else
     rm -rf $AKASH_HOME/config/genesis.json
     curl -s https://raw.githubusercontent.com/ovrclk/net/master/$CHAIN_ID/genesis.json > $AKASH_HOME/config/genesis.json
 
+    sed -i '/genesis_time/c\   \"genesis_time\" : \"2020-09-20T00:00:00Z\",' $AKASH_HOME/config/genesis.json
+
     GENACC=$(cat ../$CHAIN_ID/gentxs/$GENTX_FILE | sed -n 's|.*"delegator_address":"\([^"]*\)".*|\1|p')
 
     echo $GENACC
@@ -56,7 +58,7 @@ else
 
     echo "...checking network status.."
 
-    ./akashctl status --chain-id $CHAIN_ID
+    ./akashctl status --chain-id $CHAIN_ID --node http://localhost:26657
 
     echo "...Cleaning the stuff..."
     killall akashd >/dev/null 2>&1
