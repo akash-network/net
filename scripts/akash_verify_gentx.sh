@@ -36,7 +36,7 @@ else
 
     echo "12345678" | ./akashd add-genesis-account $RANDOM_KEY 1000000000000uakt --home $AKASH_HOME \
         --keyring-backend test --home-client $AKASHCTL_HOME
-    ./akashd add-genesis-account $GENACC 1000000000uakt --home $AKASH_HOME
+    # ./akashd add-genesis-account $GENACC 1000000000uakt --home $AKASH_HOME
 
     echo "12345678" | ./akashd gentx --name $RANDOM_KEY --amount 900000000000uakt --home $AKASH_HOME \
         --keyring-backend test --home-client $AKASHCTL_HOME
