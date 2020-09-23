@@ -1,20 +1,12 @@
 # Akash Networks
 
-This repo collects the genesis and configuration files for the various Akash networks (testnets, devnets).
+This repo collects the genesis and configuration files for the various Akash networks (mainnet, testnets & devnets).
 
-## Getting Started
+## Mainnet
 
-To get started with the latest testnet, see the [testnet guide](https://docs.akash.network/akashian/centauri-2)
+Mainnet launch is currently ongoing. For details, see [akashnet-1](akashnet-1). 
 
-## Status
-
-Latest Testnet: [centauri-2](./centauri-2)
-
-Status of the Akash testnet is available at http://akash-rpc.vitwit.com/status
-
-```
-open http://akash-rpc.vitwit.com/status
-```
+Genesis is available [here](https://raw.githubusercontent.com/ovrclk/net/master/akashnet-1/genesis.json)
 
 ## Testnets
 
