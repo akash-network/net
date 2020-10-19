@@ -18,6 +18,8 @@ if [ $LEN_GENTX -eq 0 ]; then
 else
     set -e
 
+    ./scripts/check-gentx-amount.sh "./$CHAIN_ID/gentxs/$GENTX_FILE" || exit 1
+
     echo "...........Init Akash.............."
     curl -L https://github.com/ovrclk/akash/releases/download/v0.8.1/akash_0.8.1_linux_amd64.zip -o akash_linux.zip && unzip akash_linux.zip
     rm akash_linux.zip
