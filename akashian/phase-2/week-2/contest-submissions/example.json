@@ -1,7 +1,0 @@
-{
-    "team_name": "your team name/moniker",
-    "rpc": "<rpc endpoint>",
-    "lcd": "<lcd endpoint>",
-    "seednode_address": "<seednode address>",
-    "persistent_peer_address": "<your node address>"
-}

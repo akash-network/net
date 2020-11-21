@@ -1,38 +1,103 @@
 # Akash Networks
 
-This repo collects the genesis and configuration files for the various Akash networks (mainnet, testnets & devnets).
+This repository contains network information for the various Akash networks.
 
-## Mainnet
+In general, there will be three networks available at any given time:
 
-Mainnet launch is currently ongoing. For details, see [akashnet-1](akashnet-1). 
+|Network|Status|Description|
+|---|---|---|
+|[mainnet](mainnet) | :heavy_check_mark: | Akash Network mainnet network.|
+|[testnet](testnet) | :x:                | Testnet of the current mainnet version.|
+|[edgenet](edgenet) | :construction:     | Testnet of the next mainnet version.|
 
-Genesis is available [here](https://raw.githubusercontent.com/ovrclk/net/master/akashnet-1/genesis.json)
+Each network has a corresponding directory (linked to above) containing network information.
+Each directory includes, at a minimum:
 
-## Testnets
+|File|Description|
+|---|---|
+|`version.txt`|The [Akash](//github.com/ovrclk/akash) version used to participate in the network.|
+|`chain-id.txt`|The "chain-id" of the network.|
+|`genesis.json`| The genesis file for the network |
+|`seed-nodes.txt`| A list of seed node addresses for the network.|
 
-### Centauri-2 - May 28, 2020 16:00 GMT
+The following files may also be present:
 
-Download the genesis here: [genesis](https://raw.githubusercontent.com/ovrclk/net/master/centauri-2/genesis.json)
+|File|Description|
+|---|---|
+|`peer-nodes.txt`| A list of peer node addresses for the network.|
+|`rpc-nodes.txt`| A list of RPC node addresses for the network.|
+|`api-nodes.txt`| A list of API (LCD) node addresses for the network.|
 
 
-```bash
-$ sha256sum genesis.json
-263d5742d0fb08a1f1a4eb1e85ab72e16e2dc57f6797ae6b9cf6fdfe3d65e765  genesis.json
+## Usage
+
+The information in this repo may be used to automate tasks when deploying or configuring
+[Akash](//github.com/ovrclk/akash) software.
+
+The format is standardized across the networks so that you can use the same method
+to fetch the information for all of them - just change the base URL 
+
+```sh
+AKASH_NET_BASE=https://raw.githubusercontent.com/ovrclk/net/master
+
+##
+#  Use _one_ of the following:
+##
+
+# mainnet
+AKASH_NET="$AKASH_NET_BASE/mainnet"
+
+# testnet
+AKASH_NET="$AKASH_NET_BASE/testnet"
+
+# edgenet
+AKASH_NET="$AKASH_NET_BASE/edgenet"
 ```
 
-Seed nodes:
+## Fetching Information
 
-```
-331db71f20be13da096a8c2e4fbb8106cd7077e8@147.75.62.73:26656
-```
+### Version
 
-Persistent Peers:
-
-```
-9f6a910a640789fe34fba787587f6a1aba9dd178@147.75.76.41:26656
-42b56fa219ca6800f3b20bd117a8510c62e05d61@147.75.69.249:26656
+```sh
+AKASH_VERSION="$(curl -s "$AKASH_NET/version.txt")"
 ```
 
-### Centauri - May 8, 2020 16:00 GMT
+### Chain ID
 
-Centauri was updated to Centauri-2
+```sh
+AKASH_CHAIN_ID="$(curl -s "$AKASH_NET/chain-id.txt")"
+```
+
+### Genesis
+
+```sh
+curl -s "$AKASH_NET/genesis.json" > genesis.json
+```
+
+### Seed Nodes
+
+```sh
+curl -s "$AKASH_NET/seed-nodes.txt" | paste -d, -s
+```
+
+### Peer Nodes
+
+```sh
+curl -s "$AKASH_NET/peer-nodes.txt" | paste -d, -s
+```
+
+### RPC Node
+
+Print a random RPC endpoint
+
+```sh
+curl -s "$AKASH_NET/rpc-nodes.txt" | shuf -n 1
+```
+
+### API Node
+
+Print a random API endpoint
+
+```sh
+curl -s "$AKASH_NET/api-nodes.txt" | shuf -n 1
+```
