@@ -27,7 +27,7 @@ The following files may also be present:
 |`peer-nodes.txt`| A list of peer node addresses for the network.|
 |`rpc-nodes.txt`| A list of RPC node addresses for the network.|
 |`api-nodes.txt`| A list of API (LCD) node addresses for the network.|
-
+|`faucet-url.txt`| The url of a faucet server for the network.|
 
 ## Usage
 
