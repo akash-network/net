@@ -1,1 +1,1 @@
-rpc-edgenet.akashdev.net:26657
+tcp://rpc-edgenet.akashdev.net:26657
