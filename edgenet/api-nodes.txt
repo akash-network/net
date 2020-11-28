@@ -1,1 +1,1 @@
-rpc-edgenet.akashdev.net:1317
+http://rpc-edgenet.akashdev.net:1317
