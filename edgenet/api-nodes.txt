@@ -1,1 +1,2 @@
 http://rpc-edgenet.akashdev.net:1317
+https://api.rpc.best:443
