@@ -1,1 +1,2 @@
 tcp://rpc-edgenet.akashdev.net:26657
+tcp://14.52.147.51:30601
