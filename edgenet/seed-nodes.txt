@@ -1,4 +1,4 @@
-b58311871439d26c5c24fd45076a2fd9cf7bae6a@edgenet-01.akashtest.net:26656
-e114d7033bebcdecad4acf1061822f7cbd81ad40@edgenet-02.akashtest.net:26656
-9df913fa826287c6a532e98f0bbf7152c8f5e01c@edgenet-03.akashtest.net:26656
-9a756125be8d445533221fede4b09ccbd1511b42@edgenet-04.akashtest.net:26656
+d540f54a920e3d58c13a5908c5f6ea2160bcf7b2@edgenet-01.akashtest.net:26686
+3f843ee34582c4181f00c02643b4b53bb830c3a8@edgenet-02.akashtest.net:26686
+22f70903b004a56a650c9478989230b4a771ee5a@edgenet-03.akashtest.net:26686
+6390b433ff3036e7fa6fd9188c9679026fe2bbcc@edgenet-04.akashtest.net:26686
