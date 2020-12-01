@@ -1,2 +1,2 @@
 tcp://rpc-edgenet.akashdev.net:26657
-http://armyids.com:36657
+tcp://armyids.com:36657
