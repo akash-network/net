@@ -1,1 +1,2 @@
 http://rpc-edgenet.akashdev.net:1317
+http://168.119.253.49:1317
