@@ -1,2 +1,1 @@
-tcp://rpc-edgenet.akashdev.net:26657
 tcp://152.89.107.247:26657
