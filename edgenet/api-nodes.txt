@@ -1,1 +1,2 @@
 http://rpc-edgenet.akashdev.net:1317
+http://soph-akash.pops.one:1317
