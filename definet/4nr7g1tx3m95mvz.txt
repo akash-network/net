@@ -1,0 +1,1 @@
+testnet network support - 4nr7g1tx3m95mvz - validator,rpc,api
