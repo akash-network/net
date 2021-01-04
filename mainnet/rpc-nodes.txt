@@ -1,0 +1,1 @@
+http://rpc.akash.forbole.com:80
