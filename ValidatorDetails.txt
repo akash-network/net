@@ -1,0 +1,14 @@
+Hi these are my details. 
+Are they enough?
+Moniker = tarzan18
+Thanks.
+akashvaloper1af8j6yvj5k5vkaqvvfsfacrv4hap4s2wjxt7p3
+
+https://testnet.akash.aneka.io/validators/akashvaloper1af8j6yvj5k5vkaqvvfsfacrv4hap4s2wjxt7p3
+
+AKASH_NET="https://raw.githubusercontent.com/ovrclk/net/master/edgenet"
+ACCOUNT_ADDRESS="akash1af8j6yvj5k5vkaqvvfsfacrv4hap4s2wcy9c3m"
+AKASH_CHAIN_ID="akash-edgenet-1"
+AKASH_NODE="tcp://rpc-edgenet.akashdev.net:26657"
+AKASH_MONIKER=tarzan18
+KEY_NAME=tarzan18
