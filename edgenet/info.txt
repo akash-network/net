@@ -1,0 +1,2 @@
+moniker: moniker-birpus
+address: akashvaloper16xwawtksda7dhgvpk5u8xx27rw2pdmnqq823r0
