@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-02-03T08:56:47.528628663Z",
-  "chain_id": "edgenet-4",
+  "chain_id": "edgenet-5",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -68,7 +68,7 @@
           "coins": [
             {
               "denom": "uakt",
-              "amount": "10000000000"
+              "amount": "20000010000000"
             }
           ]
         },
@@ -77,7 +77,7 @@
           "coins": [
             {
               "denom": "uakt",
-              "amount": "100000000000000000000000000000000000"
+              "amount": "80000000000000"
             }
           ]
         },
@@ -86,7 +86,7 @@
           "coins": [
             {
               "denom": "uakt",
-              "amount": "10000000000"
+              "amount": "20000010000000"
             }
           ]
         }
@@ -94,7 +94,7 @@
       "supply": [
         {
           "denom": "uakt",
-          "amount": "100000000000000000000000020000000000"
+          "amount": "120000020000000"
         }
       ],
       "denom_metadata": []
@@ -165,7 +165,7 @@
                 },
                 "value": {
                   "denom": "uakt",
-                  "amount": "9000000000"
+                  "amount": "20000000000000"
                 }
               }
             ],
@@ -197,7 +197,7 @@
             }
           },
           "signatures": [
-            "cD31+3MWXicR5ODGi3eWgVHzCHPIi8TRiI7CQA6M0Zp11N0Xejbhag655eLqENhXTFX4brQwNtGtWDBgVy2I/w=="
+            "ycC5wiA1rCgk5VAnWI/v1eoUMB7a0q6xuVa3TR76ZZhU/WZqK78Cx97bBli+rYydJOqT5/NHAs/sCw6ejZnyUg=="
           ]
         }
       ]
@@ -279,7 +279,7 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
