@@ -1,1 +1,2 @@
+http://135.181.60.250:26657
 http://rpc.akash.forbole.com:80
