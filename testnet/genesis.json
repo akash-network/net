@@ -1,6 +1,7 @@
 {
-  "genesis_time": "2021-02-08T16:50:17.207617927Z",
-  "chain_id": "akashnet-2-testnet-1",
+  "genesis_time": "2021-03-12T09:18:24.334488343Z",
+  "chain_id": "akash-testnet-5",
+  "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -9,16 +10,117 @@
     },
     "evidence": {
       "max_age_num_blocks": "100000",
-      "max_age_duration": "172800000000000"
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
     },
     "validator": {
       "pub_key_types": [
         "ed25519"
       ]
-    }
+    },
+    "version": {}
   },
   "app_hash": "",
   "app_state": {
+    "audit": {
+      "attributes": []
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "akash1l2ddc53n8cgvnzdjqh82tvvuguwwtdx725ynhd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "akash1jwe9mtmayfz7wp65f8fyluyz9q66h9annt4jk9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "akash1czxh6ewhuy00tsv5zu50gz7lz2cxcpufdrarty",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "akash1jwe9mtmayfz7wp65f8fyluyz9q66h9annt4jk9",
+          "coins": [
+            {
+              "denom": "uakt",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "akash1czxh6ewhuy00tsv5zu50gz7lz2cxcpufdrarty",
+          "coins": [
+            {
+              "denom": "uakt",
+              "amount": "100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "akash1l2ddc53n8cgvnzdjqh82tvvuguwwtdx725ynhd",
+          "coins": [
+            {
+              "denom": "uakt",
+              "amount": "1000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "uakt",
+          "amount": "100002000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "cert": {
+      "certificates": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "uakt",
+        "amount": "1000"
+      }
+    },
+    "deployment": {
+      "deployments": [],
+      "params": {
+        "deployment_min_deposit": {
+          "denom": "uakt",
+          "amount": "5000000"
+        }
+      }
+    },
     "distribution": {
       "params": {
         "community_tax": "0.020000000000000000",
@@ -38,395 +140,196 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
-    "gov": {
-      "starting_proposal_id": "1",
-      "deposits": null,
-      "votes": null,
-      "proposals": null,
-      "deposit_params": {
-        "min_deposit": [
-          {
-            "denom": "uakt",
-            "amount": "1000000000"
-          }
-        ],
-        "max_deposit_period": "1209600000000000"
-      },
-      "voting_params": {
-        "voting_period": "1209600000000000"
-      },
-      "tally_params": {
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto": "0.334000000000000000"
-      }
+    "escrow": {
+      "accounts": [],
+      "payments": []
     },
-    "params": null,
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 64,
-        "max_entries": 7,
-        "historical_entries": 0,
-        "bond_denom": "uakt"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "slashing": {
-      "params": {
-        "signed_blocks_window": "10000",
-        "min_signed_per_window": "0.050000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      },
-      "accounts": [
-        {
-          "type": "cosmos-sdk/Account",
-          "value": {
-            "address": "akash1qvmqhefflth298ph4sw7p8xqde9h4zup4x2dy8",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "1000020000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1hs0hs9k3mfmv6x8e7ypd3a7k2thupcmjeq29ft",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1lejvygg5wk9aghahkfgt0tdn5v0h5evd8vsfjl",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1ksv594q648cu7wj3k85khwt7yjwq73m2ltezp9",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash10ja8clha4u3mrddw350dalc3depnt4w86drhsc",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1ft2cdxj33tap4d2rhkdxd4yy0xg7727m79xpqm",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1z2r2gx3exfmtm3gjyxrcnqt6jtj2znxkms5upg",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1qc6zcj5zsgkj0kak5gml4uqtremg6mn4xahda6",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/ContinuousVestingAccount",
-          "value": {
-            "address": "akash1qj500evlktyhzl77s3jxhgvaxdqyp73stzgdur",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0",
-            "original_vesting": [
-              {
-                "denom": "uakt",
-                "amount": "10000000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1612976789",
-            "start_time": "1612803989"
-          }
-        },
-        {
-          "type": "cosmos-sdk/Account",
-          "value": {
-            "address": "akash1uryt0ym58dhwnqkcmatxwyp4896d8sm8vcf0rx",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0"
-          }
-        },
-        {
-          "type": "cosmos-sdk/Account",
-          "value": {
-            "address": "akash19ggpg6qxryjf9964uujvcj7ekuzjwftjm4g5x0",
-            "coins": [
-              {
-                "denom": "uakt",
-                "amount": "10000200000000"
-              }
-            ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0"
-          }
-        }
-      ]
-    },
-    "upgrade": {},
-    "supply": {
-      "supply": []
+    "evidence": {
+      "evidence": []
     },
     "genutil": {
-      "gentxs": [
+      "gen_txs": [
         {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
+          "body": {
+            "messages": [
               {
-                "type": "cosmos-sdk/MsgCreateValidator",
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "val-1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "akash1l2ddc53n8cgvnzdjqh82tvvuguwwtdx725ynhd",
+                "validator_address": "akashvaloper1l2ddc53n8cgvnzdjqh82tvvuguwwtdx7qk2488",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ppU8Sp7fWuf+3IkMxo28cFZiNY9Bgv02woJA8Acu9vo="
+                },
                 "value": {
-                  "description": {
-                    "moniker": "Witval",
-                    "identity": "",
-                    "website": "",
-                    "security_contact": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "akash1qvmqhefflth298ph4sw7p8xqde9h4zup4x2dy8",
-                  "validator_address": "akashvaloper1qvmqhefflth298ph4sw7p8xqde9h4zuplyyt5d",
-                  "pubkey": "akashvalconspub1zcjduepq9thuul7vzr9wvd3x6atnp4za2mng6pj8q3rvl5zywpdfptrn4v0stzyrwz",
-                  "value": {
-                    "denom": "uakt",
-                    "amount": "1000000000000"
-                  }
+                  "denom": "uakt",
+                  "amount": "9000000000"
                 }
+              }
+            ],
+            "memo": "a8cb03183629105fd641bbd49d035f862e31402d@147.75.32.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhigHk2/rQYV65j03URd44ffv8c63CrnmW65BgO3Rk10"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
               }
             ],
             "fee": {
               "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A7t+XKAPmUu0dPyX8T53n29qoH+EZrQAkcjTYkjNcVuq"
-                },
-                "signature": "DSqTYKX66/PszbzxKk2r7kAjdkhH7Y8vj2i7SAE6Kz1P/vbzvj3jXigsQqfn3lCgJ3xYmtmSKrnVNIl8MZCSfw=="
-              }
-            ],
-            "memo": "fe085583e7dfaed9e0233972ddd5ae72076a0528@67.205.178.113:26656"
-          }
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "jDPTTtdUs2cbgIbfiR4Om/NKmWi9J9K7AlYnTJxTBVVd+ahkO2GsvabcDPDO/1EbnUGs87cR8V9GP8UNUusxPQ=="
+          ]
         }
       ]
     },
-    "bank": {
-      "send_enabled": true
-    },
-    "evidence": {
-      "params": {
-        "max_evidence_age": "1814400000000000"
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uakt",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
       },
-      "evidence": []
+      "voting_params": {
+        "voting_period": "172800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
     },
-    "crisis": {
-      "constant_fee": {
-        "denom": "uakt",
-        "amount": "100000000"
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "market": {
+      "orders": [],
+      "leases": [],
+      "params": {
+        "bid_min_deposit": {
+          "denom": "uakt",
+          "amount": "50000000"
+        },
+        "order_max_bids": 20
       }
     },
     "mint": {
       "minter": {
-        "inflation": "0.520000000000000000",
+        "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "uakt",
         "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.580000000000000000",
-        "inflation_min": "0.460000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
-    }
+    },
+    "params": null,
+    "provider": {
+      "providers": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "uakt"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
   }
 }
