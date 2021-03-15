@@ -7,8 +7,8 @@ In general, there will be three networks available at any given time:
 |Network|Status|Description|
 |---|---|---|
 |[mainnet](mainnet) | :heavy_check_mark: | Akash Network mainnet network.|
-|[testnet](testnet) | :x:                | Testnet of the current mainnet version.|
-|[edgenet](edgenet) | :construction:     | Testnet of the next mainnet version.|
+|[testnet](testnet) | :construction:     | Testnet of the current mainnet version.|
+|[edgenet](edgenet) | :x:                | Testnet of the next mainnet version.|
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
