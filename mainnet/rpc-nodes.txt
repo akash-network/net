@@ -1,5 +1,5 @@
 http://135.181.60.250:26657
-http://rpc.akash.forbole.com:80
+https://rpc.akash.forbole.com:443
 http://rpc.mainnet.akash.dual.systems:80
 http://162.55.94.246:28957
 http://135.181.181.120:28957
