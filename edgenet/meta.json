@@ -1,0 +1,26 @@
+{
+  "status": "inactive",
+  "network_type": "edgenet",
+  "chain_id": "edgenet-6",
+  "genesis_url": "",
+  "bech32_prefix": "akash",
+  "codebase": {
+    "version": "v0.10.0-rc2",
+    "git_repo": "github.com/ovrclk/akash",
+    "git_branch": "mainnet/main"
+  },
+  "faucet": {
+    "url": "https://akash.vitwit.com/faucet"
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      "c5a24afcb8fb86bae87419234de20edf86418b2c@147.75.195.69:26656",
+      "80177a10df958a77ad5a201efc34c60882cbf011@147.75.199.31:26656"
+    ]
+  },
+  "apis": {
+    "rpc_addrs": ["http://147.75.195.69:26657", "http://147.75.199.31:26657"],
+    "rest_addrs": ["http://147.75.199.31:1317", "http://147.75.195.69:1317"]
+  }
+}
