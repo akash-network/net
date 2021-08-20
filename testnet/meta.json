@@ -2,7 +2,6 @@
   "status": "active",
   "network_type": "testnet",
   "chain_id": "akash-testnet-6",
-  "genesis_url": "",
   "bech32_prefix": "akash",
   "codebase": {
     "version": "v0.12.1",
@@ -20,7 +19,13 @@
     ]
   },
   "apis": {
-    "rpc_addrs": ["http://147.75.32.35:26657", "http://147.75.32.11:26657"],
-    "rest_addrs": ["http://147.75.32.11:1317", "http://147.75.32.35:1317"]
+    "rpc_addrs": [
+      "http://147.75.32.35:26657", 
+      "http://147.75.32.11:26657"
+    ],
+    "rest_addrs": [
+      "http://147.75.32.11:1317", 
+      "http://147.75.32.35:1317"
+    ]
   }
 }

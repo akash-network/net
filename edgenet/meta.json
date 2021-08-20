@@ -2,7 +2,6 @@
   "status": "inactive",
   "network_type": "edgenet",
   "chain_id": "edgenet-6",
-  "genesis_url": "",
   "bech32_prefix": "akash",
   "codebase": {
     "version": "v0.10.0-rc2",
@@ -20,7 +19,13 @@
     ]
   },
   "apis": {
-    "rpc_addrs": ["http://147.75.195.69:26657", "http://147.75.199.31:26657"],
-    "rest_addrs": ["http://147.75.199.31:1317", "http://147.75.195.69:1317"]
+    "rpc_addrs": [
+        "http://147.75.195.69:26657", 
+        "http://147.75.199.31:26657"
+    ],
+    "rest_addrs": [
+        "http://147.75.199.31:1317", 
+        "http://147.75.195.69:1317"
+    ]
   }
 }
