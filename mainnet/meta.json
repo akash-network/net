@@ -2,15 +2,11 @@
   "status": "active",
   "network_type": "mainnet",
   "chain_id": "akashnet-2",
-  "genesis_url": "",
   "bech32_prefix": "akash",
   "codebase": {
     "version": "v0.12.1",
     "git_repo": "github.com/ovrclk/akash",
     "git_branch": "mainnet/main"
-  },
-  "faucet": {
-    "url": ""
   },
   "peers": {
     "seeds": [
