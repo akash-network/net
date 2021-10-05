@@ -4,7 +4,7 @@
   "chain_id": "akashnet-2",
   "bech32_prefix": "akash",
   "codebase": {
-    "version": "v0.12.2",
+    "version": "v0.14.0",
     "git_repo": "github.com/ovrclk/akash",
     "git_branch": "mainnet/main"
   },
@@ -35,7 +35,7 @@
       "http://135.181.181.119:28957",
       "http://135.181.181.121:28957",
       "http://135.181.181.122:28957",
-      "http://135.181.181.123:28957"
+      "http://135.181.181.123:28957",
       "http://akash-sentry01.skynetvalidators.com:26657"
     ],
     "rest_addrs": [
