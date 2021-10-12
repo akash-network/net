@@ -4,30 +4,30 @@ This repository contains network information for the various Akash networks.
 
 In general, there will be three networks available at any given time:
 
-|Network|Status|Description|
-|---|---|---|
-|[mainnet](mainnet) | :heavy_check_mark: | Akash Network mainnet network.|
-|[testnet](testnet) | :construction:     | Testnet of the current mainnet version.|
-|[edgenet](edgenet) | :x:                | Testnet of the next mainnet version.|
+| Network            | Status             | Version     | Description                             |
+| ------------------ | ------------------ | ----------- | --------------------------------------- |
+| [mainnet](mainnet) | :heavy_check_mark: | v0.14.0     | Akash Network mainnet network.          |
+| [testnet](testnet) | :construction:     | v0.14.1-rc3 | Testnet of the current mainnet version. |
+| [edgenet](edgenet) | :x:                | v0.15.0-rc3 | Testnet of the next mainnet version.    |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
 
-|File|Description|
-|---|---|
-|`version.txt`|The [Akash](//github.com/ovrclk/akash) version used to participate in the network.|
-|`chain-id.txt`|The "chain-id" of the network.|
-|`genesis.json`| The genesis file for the network |
-|`seed-nodes.txt`| A list of seed node addresses for the network.|
+| File             | Description                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| `version.txt`    | The [Akash](//github.com/ovrclk/akash) version used to participate in the network. |
+| `chain-id.txt`   | The "chain-id" of the network.                                                     |
+| `genesis.json`   | The genesis file for the network                                                   |
+| `seed-nodes.txt` | A list of seed node addresses for the network.                                     |
 
 The following files may also be present:
 
-|File|Description|
-|---|---|
-|`peer-nodes.txt`| A list of peer node addresses for the network.|
-|`rpc-nodes.txt`| A list of RPC node addresses for the network.|
-|`api-nodes.txt`| A list of API (LCD) node addresses for the network.|
-|`faucet-url.txt`| The url of a faucet server for the network.|
+| File             | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| `peer-nodes.txt` | A list of peer node addresses for the network.      |
+| `rpc-nodes.txt`  | A list of RPC node addresses for the network.       |
+| `api-nodes.txt`  | A list of API (LCD) node addresses for the network. |
+| `faucet-url.txt` | The url of a faucet server for the network.         |
 
 ## Usage
 
@@ -35,7 +35,7 @@ The information in this repo may be used to automate tasks when deploying or con
 [Akash](//github.com/ovrclk/akash) software.
 
 The format is standardized across the networks so that you can use the same method
-to fetch the information for all of them - just change the base URL 
+to fetch the information for all of them - just change the base URL
 
 ```sh
 AKASH_NET_BASE=https://raw.githubusercontent.com/ovrclk/net/master

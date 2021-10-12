@@ -4,7 +4,7 @@
   "chain_id": "akash-testnet-6",
   "bech32_prefix": "akash",
   "codebase": {
-    "version": "v0.12.1",
+    "version": "v0.14.1-rc3",
     "git_repo": "github.com/ovrclk/akash",
     "git_branch": "mainnet/main"
   },
