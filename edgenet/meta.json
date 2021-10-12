@@ -4,7 +4,7 @@
   "chain_id": "edgenet-6",
   "bech32_prefix": "akash",
   "codebase": {
-    "version": "v0.10.0-rc2",
+    "version": "v0.15.0-rc3",
     "git_repo": "github.com/ovrclk/akash",
     "git_branch": "mainnet/main"
   },
