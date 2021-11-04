@@ -1,12 +1,24 @@
 {
-  "status": "inactive",
+  "chain_name": "akash",
+  "status": "killed",
   "network_type": "edgenet",
+  "pretty_name": "Akash",
   "chain_id": "edgenet-6",
   "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "genesis": {
+    "genesis_url": "https://github.com/ovrclk/net/raw/master/edgenet/genesis.json"
+  },
   "codebase": {
-    "version": "v0.15.0-rc3",
     "git_repo": "github.com/ovrclk/akash",
-    "git_branch": "mainnet/main"
+    "recommended_version": "v0.15.0-rc3",
+    "compatible_versions": [
+      "v0.15.0-rc3"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc3/akash_0.15.0-rc3_linux_amd64.zip"
+    }
   },
   "faucet": {
     "url": "https://akash.vitwit.com/faucet"
@@ -14,18 +26,32 @@
   "peers": {
     "seeds": [],
     "persistent_peers": [
-      "c5a24afcb8fb86bae87419234de20edf86418b2c@147.75.195.69:26656",
-      "80177a10df958a77ad5a201efc34c60882cbf011@147.75.199.31:26656"
+      {
+        "id": "c5a24afcb8fb86bae87419234de20edf86418b2c",
+        "address": "147.75.195.69:26656"
+      },
+      {
+        "id": "80177a10df958a77ad5a201efc34c60882cbf011",
+        "address": "147.75.199.31:26656"
+      }
     ]
   },
   "apis": {
     "rpc_addrs": [
-        "http://147.75.195.69:26657", 
-        "http://147.75.199.31:26657"
+      {
+          "address": "http://147.75.195.69:26657"
+      },
+      {
+          "address": "http://147.75.199.31:26657"
+      }
     ],
     "rest_addrs": [
-        "http://147.75.199.31:1317", 
-        "http://147.75.195.69:1317"
+      {
+          "address": "http://147.75.199.31:1317"
+      },
+      {
+          "address": "http://147.75.195.69:1317"
+      }
     ]
   }
 }
