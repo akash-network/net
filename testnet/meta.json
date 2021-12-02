@@ -38,10 +38,6 @@
         "address": "http://rpc.testnet-1.ewr1.aksh.pw:80"
       }
     ],
-    "rest_addrs": [
-      {
-        "address": ""
-      }
-    ]
+    "rest_addrs": []
   }
 }
