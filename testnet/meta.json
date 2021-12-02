@@ -3,7 +3,7 @@
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Akash",
-  "chain_id": "akash-testnet-6",
+  "chain_id": "testnet-1",
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
@@ -27,30 +27,20 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "2b027ca96b51ab4f3c69ac54fd05b7ae082fa6a8",
-        "address": "147.75.32.11:26656"
-      },
-      {
-        "id": "036cbb0a1e11f9cafa54623b18761b094944d1ee",
-        "address": "147.75.32.35:26656"
+        "id": "cb52e9db439a258ab0708c2476f174642f025daa",
+        "address": "p2p.testnet-1.ewr1.aksh.pw:80"
       }
     ]
   },
   "apis": {
     "rpc_addrs": [
       {
-        "address": "http://147.75.32.35:26657"
-      },
-      {
-        "address": "http://147.75.32.11:26657"
+        "address": "http://rpc.testnet-1.ewr1.aksh.pw:80"
       }
     ],
     "rest_addrs": [
       {
-        "address": "http://147.75.32.11:1317"
-      },
-      {
-        "address": "http://147.75.32.35:1317"
+        "address": ""
       }
     ]
   }

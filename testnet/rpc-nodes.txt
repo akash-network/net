@@ -1,2 +1,1 @@
-http://147.75.32.35:26657
-http://147.75.32.11:26657
+http://rpc.testnet-1.ewr1.aksh.pw:80

@@ -1,1 +1,1 @@
-akash-testnet-6
+testnet-1
