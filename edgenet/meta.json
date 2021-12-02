@@ -1,9 +1,9 @@
 {
   "chain_name": "akash",
-  "status": "killed",
+  "status": "live",
   "network_type": "edgenet",
   "pretty_name": "Akash",
-  "chain_id": "edgenet-6",
+  "chain_id": "edgenet-1",
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
@@ -27,31 +27,17 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "c5a24afcb8fb86bae87419234de20edf86418b2c",
-        "address": "147.75.195.69:26656"
-      },
-      {
-        "id": "80177a10df958a77ad5a201efc34c60882cbf011",
-        "address": "147.75.199.31:26656"
+        "id": "333612421204c74e740e5a601c439953dfa12aac",
+        "address": "p2p.edgenet-1.ewr1.aksh.pw:80"
       }
     ]
   },
   "apis": {
     "rpc_addrs": [
       {
-          "address": "http://147.75.195.69:26657"
-      },
-      {
-          "address": "http://147.75.199.31:26657"
+          "address": "http://rpc.edgenet-1.ewr1.aksh.pw:80"
       }
     ],
-    "rest_addrs": [
-      {
-          "address": "http://147.75.199.31:1317"
-      },
-      {
-          "address": "http://147.75.195.69:1317"
-      }
-    ]
+    "rest_addrs": []
   }
 }
