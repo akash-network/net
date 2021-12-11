@@ -7,4 +7,4 @@ http://135.181.181.121:28957
 http://135.181.181.122:28957
 http://135.181.181.123:28957
 http://akash-sentry01.skynetvalidators.com:26657
-https://rpc.akash.smartnodes.co
+https://rpc.akash.smartnodes.co:443
