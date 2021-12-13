@@ -1,1 +1,1 @@
-cb52e9db439a258ab0708c2476f174642f025daa@p2p.testnet-1.ewr1.aksh.pw:80
+cb52e9db439a258ab0708c2476f174642f025daa@p2p.testnet-1.ewr1.aksh.pw:26656
