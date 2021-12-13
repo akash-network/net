@@ -28,14 +28,14 @@
     "persistent_peers": [
       {
         "id": "cb52e9db439a258ab0708c2476f174642f025daa",
-        "address": "p2p.testnet-1.ewr1.aksh.pw:80"
+        "address": "p2p.testnet-1.ewr1.aksh.pw:26656"
       }
     ]
   },
   "apis": {
     "rpc_addrs": [
       {
-        "address": "http://rpc.testnet-1.ewr1.aksh.pw:80"
+        "address": "http://rpc.testnet-1.ewr1.aksh.pw:26657"
       }
     ],
     "rest_addrs": []
