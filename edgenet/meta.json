@@ -28,14 +28,14 @@
     "persistent_peers": [
       {
         "id": "333612421204c74e740e5a601c439953dfa12aac",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:80"
+        "address": "p2p.edgenet-1.ewr1.aksh.pw:26656"
       }
     ]
   },
   "apis": {
     "rpc_addrs": [
       {
-          "address": "http://rpc.edgenet-1.ewr1.aksh.pw:80"
+          "address": "http://rpc.edgenet-1.ewr1.aksh.pw:26657"
       }
     ],
     "rest_addrs": []
