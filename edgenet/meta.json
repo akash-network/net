@@ -12,12 +12,12 @@
   },
   "codebase": {
     "git_repo": "github.com/ovrclk/akash",
-    "recommended_version": "v0.15.0-rc3",
+    "recommended_version": "v0.15.0-rc5",
     "compatible_versions": [
-      "v0.15.0-rc3"
+      "v0.15.0-rc5"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc3/akash_0.15.0-rc3_linux_amd64.zip"
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc5/akash_0.15.0-rc5_linux_amd64.zip"
     }
   },
   "faucet": {
