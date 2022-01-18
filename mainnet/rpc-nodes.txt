@@ -1,4 +1,4 @@
 https://rpc.akash.forbole.com:443
 http://akash-sentry01.skynetvalidators.com:26657
 https://rpc.akash.smartnodes.co:443
-http://akash.c29r3.xyz:443/rpc
+http://akash.c29r3.xyz:80/rpc
