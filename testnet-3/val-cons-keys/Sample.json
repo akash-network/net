@@ -1,0 +1,10 @@
+{
+	"operator_address": "akash1qjcvelu4rud75jztawcls48luxmapcajvfdhuy",
+	"validator_cons_keys": {
+	  "address": "EE3748B55CE7BD195D3D8C270B98E10944EA8A3B",
+	  "pub_key": {
+		"type": "tendermint/PubKeyEd25519",
+		"value": "Q1SkeqL34gaTEd2lfjRLXHdU3HJ8gvsuEs2lOwSJdh0="
+	  }
+  	}
+}
