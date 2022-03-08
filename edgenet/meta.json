@@ -12,22 +12,22 @@
   },
   "codebase": {
     "git_repo": "github.com/ovrclk/akash",
-    "recommended_version": "v0.15.0-rc8",
+    "recommended_version": "v0.15.0-rc14",
     "compatible_versions": [
       "v0.15.0-rc8"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc5/akash_0.15.0-rc5_linux_amd64.zip"
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc14/akash_0.15.0-rc14_linux_amd64.zip"
     }
   },
   "faucet": {
-    "url": "https://akash.vitwit.com/faucet"
+    "url": "http://55ma08d6b9aht4gtovcih95dps.ingress.edgenet-1.ewr1.aksh.pw/"
   },
   "peers": {
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "333612421204c74e740e5a601c439953dfa12aac",
+        "id": "429d14fe2ab411e946623c20b060efdf230a5a8a",
         "address": "p2p.edgenet-1.ewr1.aksh.pw:26656"
       }
     ]
