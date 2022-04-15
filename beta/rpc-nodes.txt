@@ -1,0 +1,4 @@
+http://rpc.beta-1.ewr1.aksh.pw:26657
+http://rpc.beta-1.ewr1.aksh.pw:26662
+http://rpc.beta-1.ewr1.aksh.pw:26663
+http://rpc.beta-1.ewr1.aksh.pw:26664

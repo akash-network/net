@@ -1,0 +1,76 @@
+{
+  "chain_name": "akash",
+  "status": "live",
+  "network_type": "beta",
+  "pretty_name": "Akash",
+  "chain_id": "beta",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "genesis": {
+    "genesis_url": "https://github.com/ovrclk/net/raw/master/beta/genesis.json"
+  },
+  "codebase": {
+    "git_repo": "github.com/ovrclk/akash",
+    "recommended_version": "0.16.0-rc0",
+    "compatible_versions": [
+      "0.16.0-rc0"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.16.0-rc0/akash_0.16.0-rc0_linux_amd64.zip"
+    }
+  },
+  "faucet": {
+    "url": "http://55ma08d6b9aht4gtovcih95dps.ingress.beta-1.ewr1.aksh.pw/"
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "429d14fe2ab411e946623c20b060efdf230a5a8a",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26656"
+      },
+      {
+        "id": "174e186ab7ef0aa8add457fecc5cca41b52cc031",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26652"
+      },
+      {
+        "id": "a0dcc96946847f8bee74ffabd7d6d4809d030829",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26653"
+      },
+      {
+        "id": "49c15444a04187b46db5e35b428b93bda42885e8",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26654"
+      },
+      {
+        "id": "d9b7aba0738fd94072f11f49d5c2c0e119ef4268",
+        "address": "170.187.200.114:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "429d14fe2ab411e946623c20b060efdf230a5a8a",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26656"
+      },
+      {
+        "id": "174e186ab7ef0aa8add457fecc5cca41b52cc031",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26652"
+      },
+      {
+        "id": "a0dcc96946847f8bee74ffabd7d6d4809d030829",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26653"
+      },
+      {
+        "id": "49c15444a04187b46db5e35b428b93bda42885e8",
+        "address": "p2p.beta-1.ewr1.aksh.pw:26654"
+      }
+    ]
+  },
+  "apis": {
+    "rpc_addrs": [
+      {
+          "address": "http://rpc.beta-1.ewr1.aksh.pw:26657"
+      }
+    ],
+    "rest_addrs": []
+  }
+}
