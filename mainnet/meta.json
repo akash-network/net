@@ -102,6 +102,9 @@
       },
       {
         "address": "http://akash-sentry01.skynetvalidators.com:26657"
+      },
+      {
+	"address": "https://akash-rpc.polkachu.com:443"
       }
     ],
     "rest": [
