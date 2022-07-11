@@ -3,7 +3,7 @@
   "status": "live",
   "network_type": "edgenet",
   "pretty_name": "Akash",
-  "chain_id": "edgenet-1",
+  "chain_id": "iptestnet0",
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
@@ -12,12 +12,12 @@
   },
   "codebase": {
     "git_repo": "github.com/ovrclk/akash",
-    "recommended_version": "v0.15.0-rc14",
+    "recommended_version": "v0.16.5-rc4",
     "compatible_versions": [
-      "v0.15.0-rc8"
+      "v0.16.5-rc1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.15.0-rc14/akash_0.15.0-rc14_linux_amd64.zip"
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.16.5-rc4/akash_0.16.5-rc4_linux_amd64.zip"
     }
   },
   "faucet": {
@@ -25,54 +25,30 @@
   },
   "peers": {
     "seeds": [
-      {
-        "id": "429d14fe2ab411e946623c20b060efdf230a5a8a",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26656"
-      },
-      {
-        "id": "174e186ab7ef0aa8add457fecc5cca41b52cc031",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26652"
-      },
-      {
-        "id": "a0dcc96946847f8bee74ffabd7d6d4809d030829",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26653"
-      },
-      {
-        "id": "49c15444a04187b46db5e35b428b93bda42885e8",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26654"
-      },
-      {
-        "id": "d9b7aba0738fd94072f11f49d5c2c0e119ef4268",
-        "address": "170.187.200.114:26656"
-      }
+      {"id":"419412657fc28a1efa0726fc909ac57a050cfbcb",
+      "address":"147.75.44.91:26656"},
+      {"id":"3d647094a535b34033011a9351972466e3c6a397",
+      "address":"136.144.50.219:26656"},
+      {"id":"4ff2989c997fb1f51b15fe56946e1e8c028925cc",
+      "address":"136.144.50.231:26656"},
+      {"id":"85029c176774c2b15e336fec47f7200774bbc3ea",
+      "address":"145.40.65.53:26656"}
     ],
     "persistent_peers": [
-      {
-        "id": "429d14fe2ab411e946623c20b060efdf230a5a8a",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26656"
-      },
-      {
-        "id": "174e186ab7ef0aa8add457fecc5cca41b52cc031",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26652"
-      },
-      {
-        "id": "a0dcc96946847f8bee74ffabd7d6d4809d030829",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26653"
-      },
-      {
-        "id": "49c15444a04187b46db5e35b428b93bda42885e8",
-        "address": "p2p.edgenet-1.ewr1.aksh.pw:26654"
-      },
-      {
-        "id": "d9b7aba0738fd94072f11f49d5c2c0e119ef4268",
-        "address": "170.187.200.114:26656"
-      }
+      {"id":"419412657fc28a1efa0726fc909ac57a050cfbcb",
+      "address":"147.75.44.91:26656"},
+      {"id":"3d647094a535b34033011a9351972466e3c6a397",
+      "address":"136.144.50.219:26656"},
+      {"id":"4ff2989c997fb1f51b15fe56946e1e8c028925cc",
+      "address":"136.144.50.231:26656"},
+      {"id":"85029c176774c2b15e336fec47f7200774bbc3ea",
+      "address":"145.40.65.53:26656"}
     ]
   },
   "apis": {
     "rpc_addrs": [
       {
-          "address": "http://rpc.edgenet-1.ewr1.aksh.pw:26657"
+          "address": "http://http://validator1.iptestnet.akashian.io:26657"
       }
     ],
     "rest_addrs": []
