@@ -1,1 +1,1 @@
-http://api.edgenet-1.ewr1.aksh.pw:1317
+http://validator1.iptestnet.akashian.io:1317

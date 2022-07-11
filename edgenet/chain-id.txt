@@ -1,1 +1,1 @@
-edgenet-1
+iptestnet0
