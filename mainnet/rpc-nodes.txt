@@ -1,5 +1,5 @@
 https://rpc.akash.forbole.com:443
-http://akash-sentry01.skynetvalidators.com:26637
-https://rpc.akash.smartnodes.one:443
-http://akash.c29r3.xyz:80/rpc
+https://rpc-akash.ecostake.com:443
 https://akash-rpc.polkachu.com:443
+https://rpc-akash-ia.notional.ventures:443
+http://akash.c29r3.xyz:80/rpc

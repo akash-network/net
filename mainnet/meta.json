@@ -148,18 +148,44 @@
         "address": "https://rpc.akash.forbole.com:443"
       },
       {
-        "address": "http://135.181.181.122:28957"
+        "address": "https://rpc-akash.ecostake.com:443"
       },
       {
-        "address": "http://akash-sentry01.skynetvalidators.com:26657"
+        "address": "https://akash-rpc.polkachu.com:443"
       },
       {
-	"address": "https://akash-rpc.polkachu.com:443"
+        "address": "https://rpc-akash-ia.notional.ventures:443"
+      },
+      {
+        "address": "http://akash.c29r3.xyz:80/rpc"
       }
     ],
     "rest": [
       {
-        "address": "http://135.181.181.122:1518"
+        "address": "https://api.akash.forbole.com:443",
+        "provider": "forbole"
+      },
+      {
+        "address": "https://rest-akash.ecostake.com",
+        "provider": "ecostake"
+      },
+      {
+        "address": "https://akash-api.polkachu.com:443",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://api-akash-ia.notional.ventures",
+        "provider": "Notional"
+      },
+      {
+        "address": "https://akash.c29r3.xyz:443/api",
+        "provider": "c29r3"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-akash-ia.notional.ventures:443",
+        "provider": "Notional"
       }
     ]
   }
