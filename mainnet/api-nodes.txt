@@ -1,3 +1,4 @@
-https://akash.c29r3.xyz:443/api
 https://api.akash.smartnodes.one:443
 https://akash-api.polkachu.com:443
+https://api.d3akash.cloud:443
+https://akash.c29r3.xyz:443/api
