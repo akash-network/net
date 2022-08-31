@@ -7,6 +7,7 @@ In general, there will be three networks available at any given time:
 | Network            | Status             | Version | Description                    |
 | ------------------ | ------------------ | ------- | ------------------------------ |
 | [mainnet](mainnet) | :heavy_check_mark: | v0.16.4 | Akash Network mainnet network. |
+| [sandbox](sandbox) | :heavy_check_mark: | v0.16.4 | Akash Network sandbox network. |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
