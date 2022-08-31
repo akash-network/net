@@ -4,11 +4,9 @@ This repository contains network information for the various Akash networks.
 
 In general, there will be three networks available at any given time:
 
-| Network            | Status             | Version     | Description                             |
-| ------------------ | ------------------ | ----------- | --------------------------------------- |
-| [mainnet](mainnet) | :heavy_check_mark: | v0.16.4     | Akash Network mainnet network.          |
-| [testnet](testnet) | :construction:     | v0.14.1     | Testnet of the current mainnet version. |
-| [edgenet](edgenet) | :x:                | v0.15.0-rc8 | Testnet of the next mainnet version.    |
+| Network            | Status             | Version | Description                    |
+| ------------------ | ------------------ | ------- | ------------------------------ |
+| [mainnet](mainnet) | :heavy_check_mark: | v0.16.4 | Akash Network mainnet network. |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:

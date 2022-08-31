@@ -1,1 +1,0 @@
-http://api.testnet-1.ewr1.aksh.pw:1317
