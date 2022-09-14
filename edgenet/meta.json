@@ -1,0 +1,56 @@
+{
+  "chain_name": "edgenet",
+  "status": "live",
+  "network_type": "edgenet",
+  "pretty_name": "edgenet",
+  "chain_id": "edgenet",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "genesis": {
+    "genesis_url": "https://raw.githubusercontent.com/ovrclk/net/master/edgenet/genesis.json"
+  },
+  "codebase": {
+    "git_repo": "github.com/ovrclk/akash",
+    "recommended_version": "v0.17.0-rc6",
+    "compatible_versions": [
+      "v0.17.0-rc6"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.17.0-rc6/akash_0.17.0-rc6_linux_amd64.zip"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "3c30900195e7c4111bb156d2adbd895d1396a0a7",
+        "address": "p2p.edgenet.bhs.aksh.pw:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "3c30900195e7c4111bb156d2adbd895d1396a0a7",
+        "address": "p2p.edgenet.bhs.aksh.pw:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://rpc.edgenet.bhs.aksh.pw:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://api.edgenet.bhs.aksh.pw:1317",
+        "provider": "akash"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.edgenet.bhs.aksh.pw:9090",
+        "provider": "akash"
+      }
+    ]
+  }
+}
