@@ -2,5 +2,5 @@ https://rpc.akash.forbole.com:443
 https://rpc-akash.ecostake.com:443
 https://akash-rpc.polkachu.com:443
 https://rpc-akash-ia.notional.ventures:443
-https://rpc.d3akash.cloud:443
+http://node.d3akash.cloud:26657
 http://akash.c29r3.xyz:80/rpc
