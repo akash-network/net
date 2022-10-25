@@ -666,10 +666,10 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "300s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "1800s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -723,7 +723,7 @@
       "params": {
         "bid_min_deposit": {
           "denom": "uakt",
-          "amount": "50000000"
+          "amount": "5000000"
         },
         "order_max_bids": 20
       }
