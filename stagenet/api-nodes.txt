@@ -1,1 +1,1 @@
-http://api.stagenet.ny.aksh.pw:1317
+http://api.stagenet.us-east-va-1.aksh.pw:1317
