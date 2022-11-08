@@ -24,31 +24,31 @@
     "seeds": [
       {
         "id": "e6dabdfe15290ec65eeeafe4bb669d42edf06327",
-        "address": "p2p.stagenet.ny.aksh.pw:26656"
+        "address": "p2p.stagenet.us-east-va-1.aksh.pw:26656"
       }
     ],
     "persistent_peers": [
       {
         "id": "e6dabdfe15290ec65eeeafe4bb669d42edf06327",
-        "address": "p2p.stagenet.ny.aksh.pw:26656"
+        "address": "p2p.stagenet.us-east-va-1.aksh.pw:26656"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "http://rpc.stagenet.ny.aksh.pw:26657"
+        "address": "http://rpc.stagenet.us-east-va-1.aksh.pw:26657"
       }
     ],
     "rest": [
       {
-        "address": "http://api.stagenet.ny.aksh.pw:1317",
+        "address": "http://api.stagenet.us-east-va-1.aksh.pw:1317",
         "provider": "akash"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.stagenet.ny.aksh.pw:9090",
+        "address": "grpc.stagenet.us-east-va-1.aksh.pw:9090",
         "provider": "akash"
       }
     ]
