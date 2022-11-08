@@ -4,11 +4,12 @@ This repository contains network information for the various Akash networks.
 
 In general, there will be three networks available at any given time:
 
-| Network            | Status             | Version     | Description                               |
-| ------------------ | ------------------ | ----------- | ----------------------------------------- |
-| [mainnet](mainnet) | :heavy_check_mark: | v0.16.8     | Akash Network mainnet network.            |
-| [sandbox](sandbox) | :heavy_check_mark: | v0.16.8     | Akash Network sandbox test network.       |
-| [edgenet](edgenet) | :heavy_check_mark: | v0.17.0-rc6 | Akash Network bleeding edge test network. |
+| Network              | Status             | Version     | Description                                            |
+| -------------------- | ------------------ | ----------- | ------------------------------------------------------ |
+| [mainnet](mainnet)   | :heavy_check_mark: | v0.16.8     | Akash Network mainnet network.                         |
+| [sandbox](sandbox)   | :heavy_check_mark: | v0.16.8     | Akash Network sandbox test network.                    |
+| [stagenet](stagenet) | :heavy_check_mark: | v0.16.8     | Akash Network stagenet test network. (Copy of sandbox) |
+| [edgenet](edgenet)   | :heavy_check_mark: | v0.17.0-rc6 | Akash Network bleeding edge test network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
@@ -49,6 +50,9 @@ AKASH_NET="$AKASH_NET_BASE/mainnet"
 
 # sandbox
 AKASH_NET="$AKASH_NET_BASE/sandbox"
+
+# stagenet
+AKASH_NET="$AKASH_NET_BASE/stagenet"
 
 # edgenet
 AKASH_NET="$AKASH_NET_BASE/edgenet"

@@ -1,0 +1,56 @@
+{
+  "chain_name": "sandboxnet",
+  "status": "live",
+  "network_type": "stagenet",
+  "pretty_name": "Stagenet",
+  "chain_id": "sandboxnet",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "genesis": {
+    "genesis_url": "https://raw.githubusercontent.com/ovrclk/net/master/stagenet/genesis.json"
+  },
+  "codebase": {
+    "git_repo": "github.com/ovrclk/akash",
+    "recommended_version": "v0.16.4",
+    "compatible_versions": [
+      "v0.16.4"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/ovrclk/akash/releases/download/v0.16.4/akash_0.16.4_linux_amd64.zip"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "e6dabdfe15290ec65eeeafe4bb669d42edf06327",
+        "address": "p2p.stagenet.ny.aksh.pw:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "e6dabdfe15290ec65eeeafe4bb669d42edf06327",
+        "address": "p2p.stagenet.ny.aksh.pw:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://rpc.stagenet.ny.aksh.pw:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://api.stagenet.ny.aksh.pw:1317",
+        "provider": "akash"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.stagenet.ny.aksh.pw:9090",
+        "provider": "akash"
+      }
+    ]
+  }
+}
