@@ -1,2 +1,2 @@
- http://rpc.edgenet.bhs.aksh.pw:26657
+ http://rpc.edgenet.ny.aksh.pw:26657
  

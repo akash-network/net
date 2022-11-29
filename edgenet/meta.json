@@ -24,31 +24,31 @@
     "seeds": [
       {
         "id": "3c30900195e7c4111bb156d2adbd895d1396a0a7",
-        "address": "p2p.edgenet.bhs.aksh.pw:26656"
+        "address": "p2p.edgenet.ny.aksh.pw:26656"
       }
     ],
     "persistent_peers": [
       {
         "id": "3c30900195e7c4111bb156d2adbd895d1396a0a7",
-        "address": "p2p.edgenet.bhs.aksh.pw:26656"
+        "address": "p2p.edgenet.ny.aksh.pw:26656"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "http://rpc.edgenet.bhs.aksh.pw:26657"
+        "address": "http://rpc.edgenet.ny.aksh.pw:26657"
       }
     ],
     "rest": [
       {
-        "address": "http://api.edgenet.bhs.aksh.pw:1317",
+        "address": "http://api.edgenet.ny.aksh.pw:1317",
         "provider": "akash"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.edgenet.bhs.aksh.pw:9090",
+        "address": "grpc.edgenet.ny.aksh.pw:9090",
         "provider": "akash"
       }
     ]

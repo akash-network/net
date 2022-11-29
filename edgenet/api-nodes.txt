@@ -1,1 +1,1 @@
-http://api.edgenet.bhs.aksh.pw:1317
+http://api.edgenet.ny.aksh.pw:1317
