@@ -1,3 +1,1 @@
-# Stagenet Information
-
-Stagenet is a copy of sandboxnet.
+# Sandbox Information
