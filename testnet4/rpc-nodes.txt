@@ -1,2 +1,0 @@
- http://rpc.testnet4.us-east-1.aksh.pw:26657
- 
