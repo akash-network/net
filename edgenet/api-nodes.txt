@@ -1,1 +1,0 @@
-http://api.edgenet.ny.aksh.pw:1317

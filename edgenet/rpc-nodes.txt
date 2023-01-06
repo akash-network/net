@@ -1,2 +1,0 @@
- http://rpc.edgenet.ny.aksh.pw:26657
- 
