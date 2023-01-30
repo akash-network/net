@@ -8,8 +8,8 @@ In general, there will be three networks available at any given time:
 | -------------------- | ------------------ | ------- | ------------------------------------------------------ |
 | [mainnet](mainnet)   | :heavy_check_mark: | v0.20.0 | Akash Network mainnet network.                         |
 | [sandbox](sandbox)   | :heavy_check_mark: | v0.18.0 | Akash Network sandbox test network.                    |
-| [stagenet](stagenet) | :x: | v0.18.0 | Akash Network stagenet test network. (Copy of sandbox) |
-| [edgenet](edgenet)   | :x: | v0.18.0 | Akash Network bleeding edge test network.              |
+| stagenet  | :x: | v0.18.0 | Akash Network stagenet test network. (Copy of sandbox) |
+| edgenet   | :x: | v0.18.0 | Akash Network bleeding edge test network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
