@@ -7,7 +7,7 @@ In general, there will be three networks available at any given time:
 | Network              | Status             | Version | Description                                            |
 | -------------------- | ------------------ | ------- | ------------------------------------------------------ |
 | [mainnet](mainnet)   | :heavy_check_mark: | v0.20.0 | Akash Network mainnet network.                         |
-| [sandbox](sandbox)   | :heavy_check_mark: | v0.18.0 | Akash Network sandbox test network.                    |
+| [sandbox](sandbox)   | :heavy_check_mark: | v0.22.0 | Akash Network sandbox test network.                    |
 | stagenet  | :x: | v0.18.0 | Akash Network stagenet test network. (Copy of sandbox) |
 | edgenet   | :x: | v0.18.0 | Akash Network bleeding edge test network.              |
 
