@@ -25,13 +25,13 @@
   "peers": {
     "seeds": [
       {
-        "id": "1bc528eb71da0b89f6bafbbc684442cce6d3ac02",
+        "id": "96aacf1f907027e1f912ad41d1eba40ed38ebee2",
         "address": "p2p.sandbox.ny.aksh.pw:26656"
       }
     ],
     "persistent_peers": [
       {
-        "id": "1bc528eb71da0b89f6bafbbc684442cce6d3ac02",
+        "id": "96aacf1f907027e1f912ad41d1eba40ed38ebee2",
         "address": "p2p.sandbox.ny.aksh.pw:26656"
       }
     ]
