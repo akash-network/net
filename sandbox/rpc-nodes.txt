@@ -1,1 +1,1 @@
-http://rpc.sandbox.ny.aksh.pw:26657
+https://rpc.sandbox.ny.aksh.pw:443
