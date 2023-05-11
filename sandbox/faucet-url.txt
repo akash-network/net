@@ -1,1 +1,1 @@
-http://faucet.sandbox.ny.aksh.pw/
+http://faucet.sandbox-01.aksh.pw/

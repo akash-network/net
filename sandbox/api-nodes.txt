@@ -1,1 +1,1 @@
-https://api.sandbox.ny.aksh.pw:443
+https://api.sandbox-01.aksh.pw:443

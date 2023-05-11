@@ -1,9 +1,9 @@
 {
-  "chain_name": "sandbox",
+  "chain_name": "sandbox-01",
   "status": "live",
   "network_type": "sandbox",
   "pretty_name": "Sandbox",
-  "chain_id": "sandbox",
+  "chain_id": "sandbox-01",
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
@@ -25,32 +25,32 @@
   "peers": {
     "seeds": [
       {
-        "id": "96aacf1f907027e1f912ad41d1eba40ed38ebee2",
-        "address": "p2p.sandbox.ny.aksh.pw:26656"
+        "id": "865b21750f7fc5a2fa901192f7ccbe1212cd6d55",
+        "address": "p2p.sandbox-01.aksh.pw:26656"
       }
     ],
     "persistent_peers": [
       {
-        "id": "96aacf1f907027e1f912ad41d1eba40ed38ebee2",
-        "address": "p2p.sandbox.ny.aksh.pw:26656"
+        "id": "865b21750f7fc5a2fa901192f7ccbe1212cd6d55",
+        "address": "p2p.sandbox-01.aksh.pw:26656"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "http://rpc.sandbox.ny.aksh.pw:26657"
+        "address": "https://rpc.sandbox-01.aksh.pw:443"
       }
     ],
     "rest": [
       {
-        "address": "http://api.sandbox.ny.aksh.pw:1317",
+        "address": "https://api.sandbox-01.aksh.pw:443",
         "provider": "akash"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.sandbox.ny.aksh.pw:9090",
+        "address": "grpc.sandbox-01.aksh.pw:9090",
         "provider": "akash"
       }
     ]
