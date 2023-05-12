@@ -1,0 +1,57 @@
+{
+  "chain_name": "testnet-02",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "testnet-02",
+  "chain_id": "testnet-02",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "genesis": {
+    "genesis_url": "https://raw.githubusercontent.com/ovrclk/net/master/testnet-02/genesis.json"
+  },
+  "codebase": {
+    "git_repo": "github.com/ovrclk/akash",
+    "recommended_version": "v0.23.0-rc7",
+    "compatible_versions": [
+      "v0.23.0-rc7"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.0-rc7/akash_0.23.0-rc7_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.0-rc7/akash_0.23.0-rc7_linux_arm64.zip"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "76940cffd5878bc7e3062df8de4c5dad8f7893da",
+        "address": "p2p.testnet-02.aksh.pw:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "76940cffd5878bc7e3062df8de4c5dad8f7893da",
+        "address": "p2p.testnet-02.aksh.pw:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet-02.aksh.pw:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.testnet-02.aksh.pw:443",
+        "provider": "akash"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.testnet-02.aksh.pw:9090",
+        "provider": "akash"
+      }
+    ]
+  }
+}

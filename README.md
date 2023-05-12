@@ -4,12 +4,13 @@ This repository contains network information for the various Akash networks.
 
 In general, there will be three networks available at any given time:
 
-| Network              | Status             | Version | Description                                            |
-| -------------------- | ------------------ | ------- | ------------------------------------------------------ |
-| [mainnet](mainnet)   | :heavy_check_mark: | v0.20.0 | Akash Network mainnet network.                         |
-| [sandbox](sandbox)   | :heavy_check_mark: | v0.22.0 | Akash Network sandbox test network.                    |
-| stagenet  | :x: | v0.18.0 | Akash Network stagenet test network. (Copy of sandbox) |
-| edgenet   | :x: | v0.18.0 | Akash Network bleeding edge test network.              |
+| Network                    | Status             | Version     | Description                                            |
+| -------------------------- | ------------------ | ----------  | ------------------------------------------------------ |
+| [mainnet](mainnet)         | :heavy_check_mark: | v0.20.0     | Akash Network mainnet network.                         |
+| [sandbox](sandbox)         | :heavy_check_mark: | v0.22.0     | Akash Network sandbox playground network.              |
+| [testnet-02](testnet-02)   | :heavy_check_mark: | v0.23.0-rc7 | Akash Network testnet-02 test network.                 |
+| stagenet                   | :x:                |             | Akash Network stagenet test network. (Copy of sandbox) |
+| edgenet                    | :x:                |             | Akash Network bleeding edge test network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
@@ -23,12 +24,13 @@ Each directory includes, at a minimum:
 
 The following files may also be present:
 
-| File             | Description                                         |
-| ---------------- | --------------------------------------------------- |
-| `peer-nodes.txt` | A list of peer node addresses for the network.      |
-| `rpc-nodes.txt`  | A list of RPC node addresses for the network.       |
-| `api-nodes.txt`  | A list of API (LCD) node addresses for the network. |
-| `faucet-url.txt` | The url of a faucet server for the network.         |
+| File               | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| `peer-nodes.txt`   | A list of peer node addresses for the network.      |
+| `rpc-nodes.txt`    | A list of RPC node addresses for the network.       |
+| `api-nodes.txt`    | A list of API (LCD) node addresses for the network. |
+| `faucet-url.txt`   | The url of a faucet server for the network.         |
+| `explorer-url.txt` | The url of a explorer UI for the network.           |
 
 ## Usage
 
@@ -50,6 +52,9 @@ AKASH_NET="$AKASH_NET_BASE/mainnet"
 
 # sandbox
 AKASH_NET="$AKASH_NET_BASE/sandbox"
+
+# testnet-02
+AKASH_NET="$AKASH_NET_BASE/testnet-02"
 
 # stagenet
 AKASH_NET="$AKASH_NET_BASE/stagenet"
