@@ -1,4 +1,4 @@
 https://akash.aneka.io
-https://akash.bigdipper.live
-https://ping.pub/akash-network
+https://bigdipper.live/akash
+https://ping.pub/akash
 https://mintscan.io/akash
