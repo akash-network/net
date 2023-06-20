@@ -1,0 +1,4 @@
+# Whitelist file used by the bid price script for the testnet-02.
+# Format:
+# <akash1-address>[ # comment]
+akash1h24fljt7p0nh82cq0za0uhsct3sfwsfu9w3c9h # Andy - June 20 2023
