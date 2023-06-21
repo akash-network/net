@@ -23,10 +23,6 @@
   },
   "peers": {
     "seeds": [
-      {
-        "id": "1030dd1fdc6dc8686b00e069f00866376d5e95cf",
-        "address": "p2p.testnet-02.aksh.pw:26656"
-      }
     ],
     "persistent_peers": [
       {
