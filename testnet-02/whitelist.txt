@@ -3,3 +3,4 @@
 # <akash1-address>[ # comment]
 akash1h24fljt7p0nh82cq0za0uhsct3sfwsfu9w3c9h # Andy - June 20 2023
 akash1f53fp8kk470f7k26yr5gztd9npzpczqv4ufud7 # Scott - June 20 2023
+akash1m3aw4dzu8ye5lpzkq7a2yqmw5d5tw3jj2zheuq #Rodri - June 22 2023
