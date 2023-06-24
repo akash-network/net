@@ -26,14 +26,6 @@
       {
         "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
         "address": "seeds.polkachu.com:12856"
-      },
-      {
-        "id": "5e37aefd2a0b9d036b1609a45d6487606da0204b",
-        "address": "rpc.ny.akash.farm:26656"
-      },
-      {
-        "id": "47f7b7a021497ad7a338ea041f19a1a11ae06795",
-        "address": "rpc.la.akash.farm:26656"
       }
     ],
     "persistent_peers": [
