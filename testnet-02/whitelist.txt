@@ -11,3 +11,7 @@ akash1zld36rf8tppawzl6g3pkzw8pewxh4eklzk54e8 # zj__ - June 23 2023
 akash130xhrhruhmv65w3awpgzylqkhzj7km5jgfyez9 # Dimokus_ - June 23 2023
 akash1jf85z8glyh82d09h3zyrgl20g5wqxgaytlzkc4 # kapitoshko - June 23 2023
 akash1sq46jmdrk0usarsnz8a7ulv5ysgqzl5vqmte7m # Andy (2nd address) - June 24 2023
+akash1znlgrlm439gx2us8s8m6xuus6x8dmxst9ucyaf # oiclid - June 27 2023
+akash1nktuhguvg9v3zwadkaaewsgpwmcpf3dk7lnwlm # clyd_dev - June 27 2023
+akash12qcpnlsfezsfyua9jld2k9kaunl7eu24fcwpfm # aitinkerer - June 27 2023
+akash1un0r070nj6ydjltyvjh7qwamp827f0z2ce3tdp # chrisleunglsn - June 27 2023
