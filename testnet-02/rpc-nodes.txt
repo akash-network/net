@@ -1,1 +1,2 @@
 https://rpc.testnet-02.aksh.pw:443
+https://akash-testnet-rpc.cosmonautstakes.com:443
