@@ -1,1 +1,2 @@
 https://api.testnet-02.aksh.pw:443
+https://akash-testnet-rest.cosmonautstakes.com:443
