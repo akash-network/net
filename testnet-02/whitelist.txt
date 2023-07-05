@@ -40,3 +40,4 @@ akash1jnq0v96usx4n0jpc8wfhnhl4x59gla75uz56gq # Eric (three#3895) - June 30 2023
 akash195l93x5qmkv82hd2at2g7emjhjjcs3wvy2jz7k # SGC | DCNorse (sgc3172) - June 30 2023
 akash1ryx3z0nk8r6ptf329wyuscudm22zvc632n8nf7 # Zach Horn - June 20 2023
 akash10nys6kc6yu8d0rsznzc7lxrh9nv3vdm27q5uur # July 4 2023
+akash1zzr2w5kuwcz8996te7rfg5rp3z7nlex7ngtgwx # July 5 2023
