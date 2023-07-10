@@ -1,0 +1,2 @@
+# keeping the track of addresses which were mining
+akash1mqd3qgxpx4wlkhmptxv3lx2npa8qhw03fca9kj # July 10 2023 -- D[2023-07-09|07:13:47.829] connecting op=hostname hostname=59sp8ef5npdrp9k44quvn2s9t8.ingress.nokx.com.hk lease=akash1mqd3qgxpx4wlkhmptxv3lx2npa8qhw03fca9kj/336664/1/1/akash1uuvm9mn3ndp43jrpuphd83xj7va4pcp4csdn2z service=miner-xmrig externalPort=80
