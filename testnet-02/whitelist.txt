@@ -20,7 +20,6 @@ akash1g43zmuhn76u78xw4ktjep454fx6xwjj43ullj9 # June 27 2023
 akash1grqwe6yjj3d84vf2cyanvhhsg6nmqpqw9055d6 # June 27 2023
 akash1w0jh3n0dq0xf5h5an9lkv88c8lqe6hu258y4vn # June 27 2023
 akash14fhyvxpwq99x807p56gfy8ywtm34xhcjfwcv8a # June 27 2023
-akash1mqd3qgxpx4wlkhmptxv3lx2npa8qhw03fca9kj # June 27 2023
 akash1efmhd0n7g2x84eaxdjjs6v2yzts976gugllvk3 # June 27 2023
 akash1g680cvzk2etcea23shfshtlm6x4japg569mq5m # June 27 2023
 akash1z90j7f96radql3hv6x9ntr5cdmfs6fk3v7vy7x # June 27 2023
