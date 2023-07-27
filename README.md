@@ -17,7 +17,7 @@ Each directory includes, at a minimum:
 
 | File             | Description                                                                        |
 | ---------------- | ---------------------------------------------------------------------------------- |
-| `version.txt`    | The [Akash](//github.com/ovrclk/akash) version used to participate in the network. |
+| `version.txt`    | The [Akash](//github.com/akash-network/node) version used to participate in the network. |
 | `chain-id.txt`   | The "chain-id" of the network.                                                     |
 | `genesis.json`   | The genesis file for the network                                                   |
 | `seed-nodes.txt` | A list of seed node addresses for the network.                                     |
@@ -35,13 +35,13 @@ The following files may also be present:
 ## Usage
 
 The information in this repo may be used to automate tasks when deploying or configuring
-[Akash](//github.com/ovrclk/akash) software.
+[Akash](//github.com/akash-network/node) software.
 
 The format is standardized across the networks so that you can use the same method
 to fetch the information for all of them - just change the base URL
 
 ```sh
-AKASH_NET_BASE=https://raw.githubusercontent.com/ovrclk/net/master
+AKASH_NET_BASE=https://raw.githubusercontent.com/akash-network/net/main
 
 ##
 #  Use _one_ of the following:
