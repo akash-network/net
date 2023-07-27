@@ -1,8 +1,8 @@
 {
   "binaries": {
-    "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc0/akash_darwin_all.zip?checksum=sha256:a414e19e9be65f25c26122c80aaefb6e2eb2936b00f9a23c5ac4447190b9e13a",
-    "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc0/akash_darwin_all.zip?checksum=sha256:a414e19e9be65f25c26122c80aaefb6e2eb2936b00f9a23c5ac4447190b9e13a",
-    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc0/akash_linux_amd64.zip?checksum=sha256:76d56d83755f3f2f1936c2cfcf342b4bfa4122bd15fababa6decb75ff337e17e",
-    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc0/akash_linux_arm64.zip?checksum=sha256:999268c7bc2970f824fc958d04ce2511dcc027b36c4961d1162f48650d518d3e"
+    "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc1/akash_darwin_all.zip?checksum=sha256:05b64a487d9435e4673a7a2eb8585e8bb56ce19cd84682d032f5417e35040d4a",
+    "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc1/akash_darwin_all.zip?checksum=sha256:05b64a487d9435e4673a7a2eb8585e8bb56ce19cd84682d032f5417e35040d4a",
+    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc1/akash_linux_amd64.zip?checksum=sha256:508d5f55ef21e021a98596a80c37c872f92e0bf36b56ca94e1c2d4268dcb0d01",
+    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc1/akash_linux_arm64.zip?checksum=sha256:48832e0e1604d8798e3a073b30e43ca883e243c2843abc4072984d8fb6cae204"
   }
 }
