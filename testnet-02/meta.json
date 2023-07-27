@@ -8,7 +8,7 @@
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
   "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/ovrclk/net/master/testnet-02/genesis.json"
+    "genesis_url": "https://raw.githubusercontent.com/ovrclk/net/main/testnet-02/genesis.json"
   },
   "codebase": {
     "git_repo": "github.com/ovrclk/akash",
