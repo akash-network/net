@@ -18,7 +18,26 @@
     ],
     "binaries": {
       "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.8/akash_linux_arm64.zip"
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
+    },
+    "versions": {
+      {
+        "name": "v0.22.0",
+        "tag": "v0.22.8",
+        "binaries": {
+          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
+          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
+        },
+        "next_version_name": "v0.24.0"
+      },
+      {
+        "name": "v0.24.0",
+        "tag": "v0.23.2-rc3",
+        "binaries": {
+          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_amd64.zip",
+          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_arm64.zip"
+        },
+      }
     }
   },
   "peers": {
