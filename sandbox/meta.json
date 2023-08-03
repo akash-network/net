@@ -1,72 +1,72 @@
 {
-  "chain_name": "sandbox-01",
-  "status": "live",
-  "network_type": "sandbox",
-  "pretty_name": "Sandbox",
-  "chain_id": "sandbox-01",
-  "bech32_prefix": "akash",
-  "daemon_name": "akash",
-  "node_home": "$HOME/.akash",
-  "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox/genesis.json"
-  },
-  "codebase": {
-    "git_repo": "github.com/akash-network/node",
-    "recommended_version": "v0.22.8",
-    "compatible_versions": [
-      "v0.22.8"
-    ],
-    "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
+    "chain_name": "sandbox-01",
+    "status": "live",
+    "network_type": "sandbox",
+    "pretty_name": "Sandbox",
+    "chain_id": "sandbox-01",
+    "bech32_prefix": "akash",
+    "daemon_name": "akash",
+    "node_home": "$HOME/.akash",
+    "genesis": {
+        "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox/genesis.json"
     },
-    "versions": {
-      {
-        "name": "v0.22.0",
-        "tag": "v0.22.8",
+    "codebase": {
+        "git_repo": "github.com/akash-network/node",
+        "recommended_version": "v0.22.8",
+        "compatible_versions": [
+            "v0.22.8"
+        ],
         "binaries": {
-          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
-          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
+            "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
+            "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
         },
-        "next_version_name": "v0.24.0"
-      },
-      {
-        "name": "v0.24.0",
-        "tag": "v0.23.2-rc3",
-        "binaries": {
-          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_amd64.zip",
-          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_arm64.zip"
-        },
-      }
+        "versions": [
+            {
+                "name": "v0.22.0",
+                "tag": "v0.22.8",
+                "binaries": {
+                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
+                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_arm64.zip"
+                },
+                "next_version_name": "v0.24.0"
+            },
+            {
+                "name": "v0.24.0",
+                "tag": "v0.23.2-rc3",
+                "binaries": {
+                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_amd64.zip",
+                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_arm64.zip"
+                }
+            }
+        ]
+    },
+    "peers": {
+        "seeds": [
+        ],
+        "persistent_peers": [
+            {
+                "id": "e06a303953a66de205d35e6ab1f17c0dc035a516",
+                "address": "p2p.sandbox-01.aksh.pw:26656"
+            }
+        ]
+    },
+    "apis": {
+        "rpc": [
+            {
+                "address": "https://rpc.sandbox-01.aksh.pw:443"
+            }
+        ],
+        "rest": [
+            {
+                "address": "https://api.sandbox-01.aksh.pw:443",
+                "provider": "akash"
+            }
+        ],
+        "grpc": [
+            {
+                "address": "grpc.sandbox-01.aksh.pw:9090",
+                "provider": "akash"
+            }
+        ]
     }
-  },
-  "peers": {
-    "seeds": [
-    ],
-    "persistent_peers": [
-      {
-        "id": "e06a303953a66de205d35e6ab1f17c0dc035a516",
-        "address": "p2p.sandbox-01.aksh.pw:26656"
-      }
-    ]
-  },
-  "apis": {
-    "rpc": [
-      {
-        "address": "https://rpc.sandbox-01.aksh.pw:443"
-      }
-    ],
-    "rest": [
-      {
-        "address": "https://api.sandbox-01.aksh.pw:443",
-        "provider": "akash"
-      }
-    ],
-    "grpc": [
-      {
-        "address": "grpc.sandbox-01.aksh.pw:9090",
-        "provider": "akash"
-      }
-    ]
-  }
 }
