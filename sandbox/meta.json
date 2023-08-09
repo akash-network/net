@@ -32,10 +32,10 @@
             },
             {
                 "name": "v0.24.0",
-                "tag": "v0.23.2-rc3",
+                "tag": "v0.23.2-rc7",
                 "binaries": {
-                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_amd64.zip",
-                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc3/akash_linux_arm64.zip"
+                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc7/akash_linux_amd64.zip",
+                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc7/akash_linux_arm64.zip"
                 }
             }
         ]
