@@ -12,9 +12,9 @@
             "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox/genesis.json"
         },
         "git_repo": "github.com/akash-network/node",
-        "recommended_version": "v0.22.8",
+        "recommended_version": "v0.26.1",
         "compatible_versions": [
-            "v0.22.8"
+            "v0.26.1"
         ],
         "binaries": {
             "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.22.8/akash_linux_amd64.zip",
@@ -32,10 +32,19 @@
             },
             {
                 "name": "v0.24.0",
-                "tag": "v0.23.2-rc7",
+                "tag": "v0.24.0",
                 "binaries": {
-                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc7/akash_linux_amd64.zip",
-                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.23.2-rc7/akash_linux_arm64.zip"
+                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.24.0/akash_linux_amd64.zip",
+                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.24.0/akash_linux_arm64.zip"
+                },
+                "next_version_name": "v0.26.0"
+            },
+            {
+                "name": "v0.26.0",
+                "tag": "v0.26.1",
+                "binaries": {
+                    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.26.1/akash_linux_amd64.zip",
+                    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.26.1/akash_linux_arm64.zip"
                 }
             }
         ]
