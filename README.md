@@ -4,13 +4,13 @@ This repository contains network information for the various Akash networks.
 
 In general, there will be three networks available at any given time:
 
-| Network                    | Status             | Version     | Description                                            |
-| -------------------------- | ------------------ | ----------  | ------------------------------------------------------ |
-| [mainnet](mainnet)         | :heavy_check_mark: | v0.24.0     | Akash Network mainnet network.                         |
-| [sandbox](sandbox)         | :heavy_check_mark: | v0.23.2-rc7 | Akash Network sandbox playground network.              |
-| [testnet-02](testnet-02)   | :heavy_check_mark: | v0.23.1-rc0 | Akash Network testnet-02 test network.                 |
-| stagenet                   | :x:                |             | Akash Network stagenet test network. (Copy of sandbox) |
-| edgenet                    | :x:                |             | Akash Network bleeding edge test network.              |
+| Network                    | Status             | Version (net version) | Description                                            |
+| -------------------------- | ------------------ | --------------------- | ------------------------------------------------------ |
+| [mainnet](mainnet)         | :heavy_check_mark: | v0.26.1     (0.26.0)  | Akash Network mainnet network.                         |
+| [sandbox](sandbox)         | :heavy_check_mark: | v0.23.2-rc7 (0.24.0)  | Akash Network sandbox playground network.              |
+| [testnet-02](testnet-02)   | :x:                | v0.23.1-rc0 (0.24.0)  | Akash Network testnet-02 test network.                 |
+| stagenet                   | :x:                |                       | Akash Network stagenet test network. (Copy of sandbox) |
+| edgenet                    | :x:                |                       | Akash Network bleeding edge test network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
