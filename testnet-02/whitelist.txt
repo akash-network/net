@@ -101,5 +101,7 @@ akash1hh2ahqjydkrds5m23lh9jucu9yzvhcxeu7d88x # jeanlouisboua - August 31 2023
 akash1u4rmd5z78smu0tmtw45mran0pz4umzvx9eqt8h # elsb - Sept 4 2023
 akash1qh0f0h7jlq4x5gpxghrxvps5l09y7uuvcumcyd # Max Cry - Sept 6 2023
 akash1jz8tzpmrur66anw5p7e56f2ty6zdwwy4ycm4t9 # Scott Test Account - Sept 26 2023
+akash1pet7fllq4d67c4pdmtsx2mzuqsmf7qv2wkyukm # stanarsoba - Sept 29 2023
+akash1qe50lzxx7l2hcrcf50kl44kfcu6eqmmdkn539w # romansre - Sept 29 2023
 akash16c40jajyzs3alfuy62de7s7ve6kaydcp750xck # akash-a-thon BM - Sept 7 2023
 akash1rvk5apl6ux3hrqs8rj3nj0997zyqk7ee9duyus # Max Cloudmos - Sept 8 2023
