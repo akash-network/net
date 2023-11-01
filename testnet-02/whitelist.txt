@@ -106,3 +106,4 @@ akash1qe50lzxx7l2hcrcf50kl44kfcu6eqmmdkn539w # romansre - Sept 29 2023
 akash16c40jajyzs3alfuy62de7s7ve6kaydcp750xck # akash-a-thon BM - Sept 7 2023
 akash1rvk5apl6ux3hrqs8rj3nj0997zyqk7ee9duyus # Max Cloudmos - Sept 8 2023
 akash1ggk74pf9avxh3llu30yfhmr345h2yrpf7c2cdu # Scott - Oct 3 2023
+akash1f7xuur7pgr3pu2ml5xqu7x79yel9nvs3dyqahm # icey / shroudmg - Nov 1 2023
