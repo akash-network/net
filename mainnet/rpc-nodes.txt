@@ -3,4 +3,3 @@ https://rpc.akash.forbole.com:443
 https://rpc-akash.ecostake.com:443
 https://akash-rpc.polkachu.com:443
 http://akash.c29r3.xyz:80/rpc
-https://akash-rpc.global.ssl.fastly.net:443
