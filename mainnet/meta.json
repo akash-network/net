@@ -12,14 +12,13 @@
   },
   "codebase": {
     "git_repo": "github.com/akash-network/node",
-    "recommended_version": "v0.26.1",
+    "recommended_version": "v0.26.2",
     "compatible_versions": [
-      "v0.26.0",
-      "v0.26.1"
+      "v0.26.2"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.26.1/akash_linux_amd64.zip?checksum=sha256:5a2b406e1df0144ef23a184837c5f6bf5e704271ecb94f94d7f705a4f90f2580",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.26.1/akash_linux_arm64.zip?checksum=sha256:583ff9c6586014e4cf9a6a14529d53385a3d16857f89d571c50606f389eb47dc"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.26.2/akash_linux_amd64.zip?checksum=sha256:8999d6b3ba19fb7546ae070c3032266d0049c6a920ab2838bab03a031ae26eb0",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.26.2/akash_linux_arm64.zip?checksum=sha256:7e9c45ddba5642d92f2a5a6923e13f7d6ef4a5c2afe38701395c90a486f025fd"
     }
   },
   "peers": {
