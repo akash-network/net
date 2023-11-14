@@ -12,13 +12,13 @@
             "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox/genesis.json"
         },
         "git_repo": "github.com/akash-network/node",
-        "recommended_version": "v0.26.2",
+        "recommended_version": "v0.28.0",
         "compatible_versions": [
-            "v0.26.2"
+            "v0.28.0"
         ],
         "binaries": {
-            "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.26.2/akash_linux_amd64.zip?checksum=sha256:8999d6b3ba19fb7546ae070c3032266d0049c6a920ab2838bab03a031ae26eb0",
-            "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.26.2/akash_linux_arm64.zip?checksum=sha256:7e9c45ddba5642d92f2a5a6923e13f7d6ef4a5c2afe38701395c90a486f025fd"
+            "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.28.0/akash_linux_amd64.zip?checksum=sha256:6390c2cdd170820e54dd64579ea28f6ce4d46c7150194b6d5233dc5d1d86be23",
+            "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.28.0/akash_linux_arm64.zip?checksum=sha256:b132b23071037b6c4850b7ae8612211b30703b251abd957703b88f8a5bc0094c"
         }
     },
     "peers": {
