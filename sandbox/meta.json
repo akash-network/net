@@ -12,15 +12,15 @@
             "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox/genesis.json"
         },
         "git_repo": "github.com/akash-network/node",
-        "recommended_version": "v0.30.0",
+        "recommended_version": "v0.32.0",
         "compatible_versions": [
-            "v0.30.0"
+            "v0.32.0"
         ],
         "binaries": {
-    	    "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
-    	    "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
-    	    "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_amd64.zip?checksum=sha256:f86b385386fdda9ecb26bdec18449aa08b04483391ac9a9a388f281d301a2f2b",
-    	    "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_arm64.zip?checksum=sha256:f90811599ef1a7200fd9e13b8b1c2d5c6452eb9c28a03256ff0ce3065103e6c3"
+          "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.32.0/akash_darwin_all.zip?checksum=sha256:b1a1b5e523096be30e350b528dba635f56f65a9007ccd899d4aca305ed350f75",
+          "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.32.0/akash_darwin_all.zip?checksum=sha256:b1a1b5e523096be30e350b528dba635f56f65a9007ccd899d4aca305ed350f75",
+          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.32.0/akash_linux_amd64.zip?checksum=sha256:898bbeb3b879a9c3c427f8cb7e2407e133d0b893d1ab79239184bf2e97d4ca66",
+          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.32.0/akash_linux_arm64.zip?checksum=sha256:0837a659f3674cea50db9be7fb6212f74494ad7d423468914d1e25778c70125f"
         }
     },
     "peers": {
