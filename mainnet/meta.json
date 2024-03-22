@@ -17,10 +17,10 @@
       "v0.32.1"
     ],
     "binaries": {
-    	"darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
-    	"darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
-    	"linux/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_amd64.zip?checksum=sha256:f86b385386fdda9ecb26bdec18449aa08b04483391ac9a9a388f281d301a2f2b",
-    	"linux/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_arm64.zip?checksum=sha256:f90811599ef1a7200fd9e13b8b1c2d5c6452eb9c28a03256ff0ce3065103e6c3"
+      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
+      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_darwin_all.zip?checksum=sha256:f6670e8f123d70f5a97d11f52442d9d7a7af4a834e673d4405b19ebd04137842",
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_amd64.zip?checksum=sha256:f86b385386fdda9ecb26bdec18449aa08b04483391ac9a9a388f281d301a2f2b",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_arm64.zip?checksum=sha256:f90811599ef1a7200fd9e13b8b1c2d5c6452eb9c28a03256ff0ce3065103e6c3"
     }
   },
   "peers": {
@@ -31,7 +31,7 @@
       },
       {
         "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
-	"address": "akash-mainnet-seed.autostake.com:26696"
+        "address": "akash-mainnet-seed.autostake.com:26696"
       },
       {
         "id": "61686e588f0af938484579adbc2093adff06c7aa",
@@ -64,20 +64,12 @@
         "address": "46.20.245.40:26656"
       },
       {
-        "id": "08e0029646eb209af3b8c0120d0a78408d4a5368",
-        "address": "23.121.249.57:26656"
-      },
-      {
         "id": "0af9b517def63d7d0ef1b22ff7bccabd2f2c6b68",
         "address": "50.21.167.157:26656"
       },
       {
         "id": "13e17b356b5e97ce754c94aeb9c74e846d018bdb",
         "address": "85.237.193.106:26656"
-      },
-      {
-        "id": "146000e02b98ff4d518facf14775c067d7914f57",
-        "address": "121.78.247.243:51656"
       },
       {
         "id": "16521dc41bd06acaaa8baa2d08574ccd6703798d",
@@ -96,16 +88,8 @@
         "address": "67.220.86.127:26656"
       },
       {
-        "id": "30b8008d4ea5069a8724a0aa73833493efa88e67",
-        "address": "142.44.137.180:26656"
-      },
-      {
         "id": "30da0ee2c35abce21e6160e43f03ece0f18cdfe7",
         "address": "144.76.63.67:26219"
-      },
-      {
-        "id": "3164c5634b43b16b32f358bb5643ead01d8be61d",
-        "address": "38.128.233.103:26656"
       },
       {
         "id": "37201c92625df2814a55129f73f10ab6aa2edc35",
@@ -132,10 +116,6 @@
         "address": "46.166.138.206:26656"
       },
       {
-        "id": "4799e2f3af4eebff187dc0ee9b5057c86bed6173",
-        "address": "95.217.202.49:39656"
-      },
-      {
         "id": "506002b391be8d653b14f0162325b14929cac72e",
         "address": "51.81.49.176:12856"
       },
@@ -150,10 +130,6 @@
       {
         "id": "5b96fcac981e7645b24902ae10be8e8e250144fb",
         "address": "174.142.205.1:6180"
-      },
-      {
-        "id": "68193e4043565b8740216fd33107a8b8ace2cd7b",
-        "address": "203.135.141.37:26656"
       },
       {
         "id": "69c3ecd3636c27ba57227715a137513bed0c7bcd",
@@ -200,10 +176,6 @@
         "address": "13.213.115.164:26656"
       },
       {
-        "id": "8d10dbe1543e41a43f5301fc796326a79cf0b840",
-        "address": "208.97.227.20:26656"
-      },
-      {
         "id": "8e81452f92a87acd45c071d6e7f87d967ab9db9e",
         "address": "95.111.246.150:26656"
       },
@@ -224,16 +196,8 @@
         "address": "83.136.255.212:26656"
       },
       {
-        "id": "b9751d5a8b3c2f242b5de21c3d5ff6440d8765cd",
-        "address": "52.30.142.144:26656"
-      },
-      {
         "id": "ba4ea7c936a3321bb4c65c057f7d5792b5011a25",
         "address": "103.180.28.208:26656"
-      },
-      {
-        "id": "bbf7cbfd305c89ef4a19c5cd9c9b4ae272dd72ea",
-        "address": "65.21.23.109:21656"
       },
       {
         "id": "be0a6315cbac3a368ff394d314514264d8447057",
@@ -276,12 +240,8 @@
         "address": "169.155.44.150:26656"
       },
       {
-        "id": "e5a3deca200af80c7f90e9627a20d29f60936f0b",
-        "address": "85.10.197.58:12856"
-      },
-      {
-        "id": "e6d750550a90b851ce71fb7c383212c9cd5228f3",
-        "address": "99.209.150.74:26756"
+        "id": "e2ca1a5dd27fc1703e686a6804cb4b911ff93203",
+        "address": "65.109.34.125:26656"
       },
       {
         "id": "e726816f42831689eab9378d5d577f1d06d25716",
@@ -308,16 +268,12 @@
         "address": "93.115.25.106:29656"
       },
       {
-        "id": "f89ae2572e48a6b6acc6f1225feb63b3c9d7b65b",
-        "address": "167.235.180.97:12856"
-      },
-      {
         "id": "f9215993d48d8e0abc31cea931d573a45d201ac8",
         "address": "65.108.232.104:12856"
       },
       {
-        "id": "fcc2a26b28a92845d40d627268dc98a8311ddbf2",
-        "address": "144.91.71.53:26651"
+        "id": "fb36358d0de87bd427d084a49dc0a9c894971429",
+        "address": "35.232.84.6:26656"
       },
       {
         "id": "fd0ec00f76f58680c0c2f3ebd285217fdca48452",
