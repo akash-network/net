@@ -1,1 +1,1 @@
-https://snapshots.akash.network/testnet-5/testnet-5_latest.tar.lz4
+https://snapshots.akash.network/testnet-5/latest
