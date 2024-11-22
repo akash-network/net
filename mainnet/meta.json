@@ -7,10 +7,10 @@
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
-  "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/mainnet/genesis.json"
-  },
   "codebase": {
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/mainnet/genesis.json"
+    },
     "git_repo": "github.com/akash-network/node",
     "recommended_version": "v0.36.0",
     "compatible_versions": [
@@ -22,6 +22,17 @@
       "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.36.0/akash_linux_amd64.zip?checksum=sha256:ce325d7b3c5aa89fb55ae5b313f76781449362f09df97712e0e23f2bfd2b22cf",
       "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.36.0/akash_linux_arm64.zip?checksum=sha256:66fcc5c60cde63b57a014ae2de07b615102db4b189a43836d7e299847ca2ab1a"
     }
+  },
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uakt",
+        "fixed_min_gas_price": 0.00025,
+        "low_gas_price": 0.00025,
+        "average_gas_price": 0.0025,
+        "high_gas_price": 0.025
+      }
+    ]
   },
   "peers": {
     "seeds": [
