@@ -1,1 +1,1 @@
-api.akashtestnet.xyz:1317
+api.dev.akash.pub:1317
