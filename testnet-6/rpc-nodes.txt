@@ -1,1 +1,1 @@
-rpc.akashtestnet.xyz:36657
+rpc.dev.akash.pub:36657
