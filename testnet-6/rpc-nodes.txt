@@ -1,1 +1,1 @@
-rpc.akashtestnet.xyz:26657
+rpc.akashtestnet.xyz:36657
