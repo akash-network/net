@@ -1,1 +1,1 @@
-rpc.dev.akash.pub:36657
+https://testnetrpc.akashnet.net:443
