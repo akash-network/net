@@ -587,9 +587,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.akash.forbole.com:443"
-      },
-      {
         "address": "https://rpc-akash.ecostake.com:443"
       },
       {
