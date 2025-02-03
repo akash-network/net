@@ -217,5 +217,11 @@
         "provider": "c29r3"
       }
     ],
+    "grpc": [
+      {
+        "address": "akash-mainnet-grpc.autostake.com:443",
+        "provider": "Autostake"
+      }
+    ]
   }
 }
