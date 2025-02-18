@@ -38,15 +38,37 @@
     "seeds": [
       {
         "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
-        "address": "seeds.polkachu.com:12856"
+        "address": "seeds.polkachu.com:12856",
+        "provider": "Polkachu"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:12856",
+        "provider": "Lavender.Five Nodes \ud83d\udc1d"
       },
       {
         "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
-        "address": "akash-mainnet-seed.autostake.com:26696"
+        "address": "akash-mainnet-seed.autostake.com:26696",
+        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "id": "9aa4c9097c818871e45aaca4118a9fe5e86c60e2",
+        "address": "seed-akash-01.stakeflow.io:1506",
+        "provider": "Stakeflow"
       },
       {
         "id": "61686e588f0af938484579adbc2093adff06c7aa",
         "address": "europlots.com:26656"
+      },
+      {
+        "id": "c28827cb96c14c905b127b92065a3fb4cd77d7f6",
+        "address": "seeds.whispernode.com:12856",
+        "provider": "WhisperNode \ud83e\udd10"
       }
     ],
     "persistent_peers": [
@@ -191,16 +213,40 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-akash.ecostake.com:443"
+        "address": "https://rpc-akash.ecostake.com:443",
+        "provider": "ecostake"
       },
       {
-        "address": "https://akash-rpc.polkachu.com:443"
+        "address": "https://rpc.lavenderfive.com:443/akash",
+        "provider": "Lavender.Five Nodes"
       },
       {
-        "address": "https://akash-rpc.europlots.com:443"
+        "address": "https://akash-rpc.polkachu.com",
+        "provider": "Polkachu"
       },
       {
-        "address": "http://akash.c29r3.xyz:80/rpc"
+        "address": "https://akash.c29r3.xyz:80/rpc",
+        "provider": "c29r3"
+      },
+      {
+        "address": "https://akash-rpc.kleomedes.network",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://akash-mainnet-rpc.cosmonautstakes.com:443",
+        "provider": "Cosmonaut Stakes"
+      },
+      {
+        "address": "https://akash-rpc.w3coins.io",
+        "provider": "w3coins"
+      },
+      {
+        "address": "https://akash-rpc.publicnode.com:443",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "https://rpc.akash.bronbro.io:443",
+        "provider": "Bro_n_Bro"
       }
     ],
     "rest": [
@@ -209,18 +255,58 @@
         "provider": "ecostake"
       },
       {
-        "address": "https://akash-api.polkachu.com:443",
+        "address": "https://rest.lavenderfive.com:443/akash",
+        "provider": "Lavender.Five Nodes"
+      },
+      {
+        "address": "https://akash-api.polkachu.com",
         "provider": "Polkachu"
       },
       {
         "address": "https://akash.c29r3.xyz:443/api",
         "provider": "c29r3"
+      },
+      {
+        "address": "https://akash-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
+      },
+      {
+        "address": "https://akash-api.kleomedes.network",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://api-akash-01.stakeflow.io",
+        "provider": "Stakeflow"
+      },
+      {
+        "address": "https://akash-mainnet-rest.cosmonautstakes.com:443",
+        "provider": "Cosmonaut Stakes"
+      },
+      {
+        "address": "https://akash-api.w3coins.io",
+        "provider": "w3coins"
+      },
+      {
+        "address": "https://akash-rest.publicnode.com",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "https://akash-api.validatornode.com",
+        "provider": "ValidatorNode"
+      },
+      {
+        "address": "https://lcd.akash.bronbro.io:443",
+        "provider": "Bro_n_Bro"
       }
     ],
     "grpc": [
       {
-        "address": "akash-mainnet-grpc.autostake.com:443",
-        "provider": "Autostake"
+        "address": "akash.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes \ud83d\udc1d"
+      },
+      {
+        "address": "akash-grpc.publicnode.com:443",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
       }
     ]
   }
