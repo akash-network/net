@@ -1,1 +1,1 @@
-api.dev.akash.pub:1317
+rpc.dev.akash.pub:31317
