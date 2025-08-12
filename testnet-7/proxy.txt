@@ -1,0 +1,5 @@
+# REST
+http://rpc.testnet.akt.dev/rest
+
+# RPC
+http://rpc.testnet.akt.dev/rpc
