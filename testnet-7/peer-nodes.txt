@@ -1,1 +1,1 @@
-cb3ef204eb5d9efa2bf271bca11dcc3722e38bcb@rpc.dev.akash.pub:30656
+de831c26d8bd570d31192cefad5b38db773e1552@rpc.dev.akash.pub:30656
