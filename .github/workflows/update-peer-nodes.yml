@@ -15,10 +15,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install netcat
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y netcat-openbsd
+          sudo apt-get install -y netcat-openbsd jq curl
 
       - name: Update Peer Nodes
         run: |
