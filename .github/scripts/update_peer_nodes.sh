@@ -76,8 +76,8 @@ fetch_and_test_new_peers() {
     fi
     
     # Parse JSON response and extract peers
-    # Assuming the API returns JSON with a 'peers' array containing peer strings
-    if ! jq -r '.peers[]?' "$TEMP_FILE" 2>/dev/null > "$NEW_PEERS_FILE"; then
+    # The API returns JSON with a 'live_peers' array containing peer strings
+    if ! jq -r '.live_peers[]?' "$TEMP_FILE" 2>/dev/null > "$NEW_PEERS_FILE"; then
         echo "Error: Failed to parse API response"
         return 1
     fi
