@@ -1,0 +1,40 @@
+name: Daily Peer Nodes Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-peer-nodes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install netcat
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y netcat-openbsd
+
+      - name: Update Peer Nodes
+        run: |
+          chmod +x .github/scripts/update_peer_nodes.sh
+          .github/scripts/update_peer_nodes.sh
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Check if there are changes to commit
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add mainnet/peer-nodes.txt
+            git commit -m "Update peer nodes - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
