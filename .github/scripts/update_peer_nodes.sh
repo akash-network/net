@@ -70,16 +70,34 @@ fetch_and_test_new_peers() {
     echo "Fetching live peers from Polkachu API..."
     
     # Fetch peers from API
+    echo "Fetching from: $API_URL"
     if ! curl -s -f "$API_URL" > "$TEMP_FILE"; then
         echo "Error: Failed to fetch peers from API"
         return 1
     fi
     
+    # Debug: Show first few lines of API response
+    echo "API response preview:"
+    head -3 "$TEMP_FILE"
+    echo "..."
+    
     # Parse JSON response and extract peers
     # The API returns JSON with a 'live_peers' array containing peer strings
     if ! jq -r '.live_peers[]?' "$TEMP_FILE" 2>/dev/null > "$NEW_PEERS_FILE"; then
         echo "Error: Failed to parse API response"
+        echo "Raw API response:"
+        cat "$TEMP_FILE"
         return 1
+    fi
+    
+    # Debug: Show how many peers we got
+    local peer_count=$(wc -l < "$NEW_PEERS_FILE")
+    echo "Found $peer_count peers from API"
+    
+    # If no peers found, exit gracefully
+    if [ "$peer_count" -eq 0 ]; then
+        echo "No peers found from API, skipping new peer testing"
+        return 0
     fi
     
     local added_count=0
@@ -133,8 +151,10 @@ main() {
     
     echo ""
     
-    # Fetch and test new peers
-    fetch_and_test_new_peers
+    # Fetch and test new peers (don't fail if API is down)
+    if ! fetch_and_test_new_peers; then
+        echo "Warning: Failed to fetch new peers from API, continuing with existing peers only"
+    fi
     
     echo ""
     
