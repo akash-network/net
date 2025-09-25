@@ -1,7 +1,7 @@
 {
   "app_name": "akash",
   "app_version": "v1.0.0-rc35",
-  "genesis_time": "2025-09-24T17:38:40.553904519Z",
+  "genesis_time": "2025-09-25T12:37:37.382267942Z",
   "chain_id": "testnet-7",
   "initial_height": 1,
   "app_hash": null,
@@ -21,7 +21,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "akash1wt3cx8aty08fzrfx5kvj6ltgcgfrp5550qm85j",
+          "address": "akash10j6gnf3xcsnf8859suxazdv9v38eckqzr4xlq5",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -38,7 +38,7 @@
       },
       "balances": [
         {
-          "address": "akash1wt3cx8aty08fzrfx5kvj6ltgcgfrp5550qm85j",
+          "address": "akash10j6gnf3xcsnf8859suxazdv9v38eckqzr4xlq5",
           "coins": [
             {
               "denom": "uakt",
@@ -126,10 +126,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "akashvaloper1wt3cx8aty08fzrfx5kvj6ltgcgfrp5559z4pyc",
+                "validator_address": "akashvaloper10j6gnf3xcsnf8859suxazdv9v38eckqzfhges7",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "2J6IrLF5LlJ0RZw1tAvwA0z+Ctcld2HoZTYZs8tSUfM="
+                  "key": "8h4EjF/TdINOjpKNEidHosu3hlZw3BRCeYOVtymMzmk="
                 },
                 "value": {
                   "denom": "uakt",
@@ -137,7 +137,7 @@
                 }
               }
             ],
-            "memo": "d8f8d1a4d8527d227a6de01f183d66d1dee99b12@10.233.102.136:26656",
+            "memo": "51c9c0cd6d404288c2c4819c8b557b87aebf6859@10.233.102.148:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -149,7 +149,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A448LjxYU4ulnZmv0m2ZHU7+SspspXKeeMQi7U1I4CSN"
+                  "key": "AvQjFx/V1st6D+885bZWezUJq0GZf5kdq5zblCLhF46F"
                 },
                 "mode_info": {
                   "single": {
@@ -173,7 +173,7 @@
             "tip": null
           },
           "signatures": [
-            "CisfinPYef4UP8xS3aSGOQlDN129b25OfGzeTjaglLBC9nMpBpt1RbsgFuKOO8kFA+j9PJjJEKMFZ0iMzXVmMg=="
+            "0AqIiJlOY33iBa4rR3UCxHpJLyvH+ls4durlnA2PBn99FB142akSfWpiMT1i0myN3lRy61rwFT8Y0IAr1LrDcQ=="
           ]
         }
       ]
