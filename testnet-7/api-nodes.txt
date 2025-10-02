@@ -1,1 +1,1 @@
-rpc.dev.akash.pub:31317
+https://testnetapi.akashnet.net
