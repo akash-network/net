@@ -1,9 +1,9 @@
 {
   "app_name": "akash",
-  "app_version": "v1.0.0-rc35",
-  "genesis_time": "2025-09-25T12:37:37.382267942Z",
+  "app_version": "v1.0.0-rc40",
+  "genesis_time": "2025-10-02T17:00:15.729257873Z",
   "chain_id": "testnet-7",
-  "initial_height": 1,
+  "initial_height": "1",
   "app_hash": null,
   "app_state": {
     "07-tendermint": null,
@@ -129,7 +129,7 @@
                 "validator_address": "akashvaloper10j6gnf3xcsnf8859suxazdv9v38eckqzfhges7",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "8h4EjF/TdINOjpKNEidHosu3hlZw3BRCeYOVtymMzmk="
+                  "key": "fVWBV1yJu3hTUvI9aBilmG8Dcfwkr0xqjLAKxQulm38="
                 },
                 "value": {
                   "denom": "uakt",
@@ -137,7 +137,7 @@
                 }
               }
             ],
-            "memo": "51c9c0cd6d404288c2c4819c8b557b87aebf6859@10.233.102.148:26656",
+            "memo": "488a99917573ba3634a4d81f6ff0a50ec24906b6@10.233.102.160:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -173,7 +173,7 @@
             "tip": null
           },
           "signatures": [
-            "0AqIiJlOY33iBa4rR3UCxHpJLyvH+ls4durlnA2PBn99FB142akSfWpiMT1i0myN3lRy61rwFT8Y0IAr1LrDcQ=="
+            "99p/4iz8HMg+V5rkBhipTs9Tu9OdBb88mhTtQngXvppEHYg+u+joAICwwSTTGsLGa8YVHcRedDY9ujxs/JO7JA=="
           ]
         }
       ]
@@ -264,7 +264,7 @@
           "denom": "uakt",
           "amount": "500000"
         },
-        "order_max_bids": 20
+        "order_max_bids": "20"
       },
       "orders": [],
       "leases": [],
@@ -301,9 +301,9 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 100,
-        "max_entries": 7,
-        "historical_entries": 10000,
+        "max_validators": "100",
+        "max_entries": "7",
+        "historical_entries": "10000",
         "bond_denom": "uakt",
         "min_commission_rate": "0.000000000000000000"
       },
