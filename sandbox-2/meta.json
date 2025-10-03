@@ -36,20 +36,8 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "",
+        "id": "a7cac6edcd8b1a8c28ca3e235b213f5d20c16d1a",
         "address": "p2p.sandbox-2.aksh.pw:26656"
-      },
-      {
-        "id": "",
-        "address": "p2p.sandbox-2.aksh.pw:26651"
-      },
-      {
-        "id": "",
-        "address": "p2p.sandbox-2.aksh.pw:26652"
-      },
-      {
-        "id": "",
-        "address": "p2p.sandbox-2.aksh.pw:26653"
       }
     ]
   },
