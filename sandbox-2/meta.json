@@ -1,0 +1,75 @@
+{
+  "chain_name": "sandbox-2",
+  "status": "live",
+  "network_type": "sandbox",
+  "pretty_name": "Sandbox",
+  "chain_id": "sandbox-2",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "codebase": {
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox-2/genesis.json"
+    },
+    "git_repo": "github.com/akash-network/node",
+    "recommended_version": "v0.38.2",
+    "compatible_versions": ["v0.38.0"],
+    "binaries": {
+      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.38.2/akash_darwin_all.zip?checksum=sha256:",
+      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.38.2/akash_darwin_all.zip?checksum=sha256:",
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.38.2/akash_linux_amd64.zip?checksum=sha256:",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.38.2/akash_linux_arm64.zip?checksum=sha256:"
+    }
+  },
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uakt",
+        "fixed_min_gas_price": 0.00025,
+        "low_gas_price": 0.00025,
+        "average_gas_price": 0.0025,
+        "high_gas_price": 0.025
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "",
+        "address": "p2p.sandbox-2.aksh.pw:26656"
+      },
+      {
+        "id": "",
+        "address": "p2p.sandbox-2.aksh.pw:26651"
+      },
+      {
+        "id": "",
+        "address": "p2p.sandbox-2.aksh.pw:26652"
+      },
+      {
+        "id": "",
+        "address": "p2p.sandbox-2.aksh.pw:26653"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.sandbox-2.aksh.pw:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.sandbox-2.aksh.pw:443",
+        "provider": "akash"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.sandbox-2.aksh.pw:9090",
+        "provider": "akash"
+      }
+    ]
+  }
+}
