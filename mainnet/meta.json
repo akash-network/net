@@ -12,15 +12,15 @@
       "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/mainnet/genesis.json"
     },
     "git_repo": "github.com/akash-network/node",
-    "recommended_version": "v0.38.1",
+    "recommended_version": "v1.0.0",
     "compatible_versions": [
-      "v0.38.0"
+      "v1.0.0"
     ],
     "binaries": {
-      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v0.38.1/akash_darwin_all.zip?checksum=sha256:c458097a7de915dd284ecec42f057912f57615a3c3c83f01564a098444c84672",
-      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v0.38.1/akash_darwin_all.zip?checksum=sha256:c458097a7de915dd284ecec42f057912f57615a3c3c83f01564a098444c84672",
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_amd64.zip?checksum=sha256:376245db6dd28145d0e5f679f91189d56f978bfba6a820e5e6a532c54c55aaeb",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_arm64.zip?checksum=sha256:9f6ca0b6bae6aea127571a54d5f0ad0898f823a86328be5c11a478faf5352c8e8"
+      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v1.0.0/akash_darwin_all.zip?checksum=sha256:81b1040a4030de081aa8dc071515bc42424bf3c18694774c57614b567986e25c",
+      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v1.0.0/akash_darwin_all.zip?checksum=sha256:81b1040a4030de081aa8dc071515bc42424bf3c18694774c57614b567986e25c",
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v1.0.0/akash_linux_amd64.zip?checksum=sha256:57fdb2e9f6434a64a79b1eed06499896b429650900f374bd37f250609de1db1d",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v1.0.0/akash_linux_arm64.zip?checksum=sha256:fdb79066971cd8902567c57bb61c121063e2c758213fedca9302574cc515c99d"
     }
   },
   "fees": {
@@ -77,10 +77,6 @@
         "address": "85.237.193.106:26656"
       },
       {
-        "id": "66b74927d51888a25fe94bff2dfeaae125739f26",
-        "address": "79.127.196.36:29656"
-      },
-      {
         "id": "c58852a0c6ee1d1a68b76e5a54a9dbce895065d9",
         "address": "162.55.245.149:2140"
       },
@@ -93,14 +89,6 @@
         "address": "148.251.53.24:12856"
       },
       {
-        "id": "ef9221336be2f2cda18f3da3fd3733e2b96d03ee",
-        "address": "54.157.107.51:26656"
-      },
-      {
-        "id": "b071f46ff940ea8acf7adbd93a7ea78498431a53",
-        "address": "86.32.69.228:26656"
-      },
-      {
         "id": "4de4f8839c4afdac12aa3c40b80788e720fcd324",
         "address": "164.152.163.191:26656"
       },
@@ -109,64 +97,24 @@
         "address": "37.252.186.117:2000"
       },
       {
-        "id": "5a7599058e1bb208c6d8fe1e8e514d7bd6559980",
-        "address": "146.59.81.92:29656"
-      },
-      {
         "id": "be0a6315cbac3a368ff394d314514264d8447057",
         "address": "141.94.139.219:26856"
-      },
-      {
-        "id": "893429952c41a3485ea63b5af2886c91f090c065",
-        "address": "65.108.76.28:12856"
       },
       {
         "id": "7e1ec5bf83a17fc588c04beb807bba0daa4b54e7",
         "address": "207.180.193.18:26656"
       },
       {
-        "id": "c1606b50f704c787a8db27888f7c620e45ffda8b",
-        "address": "142.132.249.130:26646"
-      },
-      {
         "id": "d1e47b071859497089c944dc082e920403484c1a",
         "address": "65.108.128.201:12856"
-      },
-      {
-        "id": "1fb2f4a044c08c96f9b527b8c35b7db4425c75e0",
-        "address": "141.94.195.151:12856"
-      },
-      {
-        "id": "ae80e704ee143075ebd1a92996f4eb5c208ebcee",
-        "address": "172.105.110.122:2020"
-      },
-      {
-        "id": "dda1f59957f767e20b0fc64b1c915b4799fc0cc5",
-        "address": "159.223.201.93:26656"
-      },
-      {
-        "id": "a89ded27c2323388fc0f12e7a08f17424b2b7a45",
-        "address": "135.181.142.60:15607"
-      },
-      {
-        "id": "835c8aab295400dcf52e318f64894f60d84f83b2",
-        "address": "185.233.106.174:26656"
       },
       {
         "id": "79685f65de2bfc391ecbb1d16a275f10bad1c038",
         "address": "65.109.37.251:26656"
       },
       {
-        "id": "bd2525f1a86af8b1a3798c04387f47f0c0627d24",
-        "address": "159.223.201.38:26656"
-      },
-      {
         "id": "9aa4c9097c818871e45aaca4118a9fe5e86c60e2",
         "address": "135.181.113.227:1506"
-      },
-      {
-        "id": "689b88169a9ea8c0780da57216ca7e188d64d3d5",
-        "address": "209.145.55.218:26656"
       },
       {
         "id": "03493c979e821f9d047715b1aaec0ee969392c76",
@@ -175,10 +123,6 @@
       {
         "id": "82c0ece4f15b830a1982fef0fa103d31ecd563b9",
         "address": "148.251.176.12:2000"
-      },
-      {
-        "id": "9b0d47d9872814d7d66ea15e7a5775d9a3bb4da4",
-        "address": "5.9.77.116:14756"
       },
       {
         "id": "f9215993d48d8e0abc31cea931d573a45d201ac8",
@@ -193,10 +137,6 @@
         "address": "49.13.153.159:26667"
       },
       {
-        "id": "59d9af9f89a1c22568ca596184455d644039c104",
-        "address": "144.76.15.125:27656"
-      },
-      {
         "id": "bc9c4ccacb089ebbaa3fb91bc9aa6348027a2d12",
         "address": "144.76.115.182:12856"
       },
@@ -207,6 +147,130 @@
       {
         "id": "86f866a645bcc25d3d26fe8dffbd603ebfc0d6ee",
         "address": "142.132.158.93:12856"
+      },
+      {
+        "id": "c72cbbb38bcd5a195c8164089b2c8cd082a10858",
+        "address": "44.200.143.117:30656"
+      },
+      {
+        "id": "3fd64ff84bba39ab6ada83d3a565dbb9ef96256e",
+        "address": "65.108.120.108:12856"
+      },
+      {
+        "id": "2c083cdf53b1210707fef99917ca0655ceb02250",
+        "address": "8.40.118.107:12456"
+      },
+      {
+        "id": "1503f58206070b27ca3260bdf84437618def5c69",
+        "address": "195.154.100.227:36656"
+      },
+      {
+        "id": "2880da494979a2ce52a7387abc5844f2b02a0b69",
+        "address": "148.113.214.12:10000"
+      },
+      {
+        "id": "89757803f40da51678451735445ad40d5b15e059",
+        "address": "169.155.44.92:26656"
+      },
+      {
+        "id": "fa2b10ec2ed348b6076f1b132e283d07df518ebe",
+        "address": "66.206.8.82:26656"
+      },
+      {
+        "id": "e726816f42831689eab9378d5d577f1d06d25716",
+        "address": "134.65.194.237:26656"
+      },
+      {
+        "id": "5c4b5070308aea2a15d3721c693d9c495b608ee9",
+        "address": "149.50.96.97:16656"
+      },
+      {
+        "id": "7f71e85a843516945206db6274c3a37790f79266",
+        "address": "37.252.186.202:26656"
+      },
+      {
+        "id": "1eec92ec974f69937f3b5ef0cf6101b477024929",
+        "address": "164.152.160.254:26656"
+      },
+      {
+        "id": "506002b391be8d653b14f0162325b14929cac72e",
+        "address": "51.81.49.176:12856"
+      },
+      {
+        "id": "f31426d9fb39c2d97653722a34b4c72db71904c2",
+        "address": "57.129.97.95:29656"
+      },
+      {
+        "id": "68193e4043565b8740216fd33107a8b8ace2cd7b",
+        "address": "167.235.231.186:12856"
+      },
+      {
+        "id": "106b7a61b2d289ed8f7ff52c77d39a97bc1afee5",
+        "address": "5.101.149.75:26656"
+      },
+      {
+        "id": "15c0e2e96a126e6bb7847cfabecdab4c38b489f2",
+        "address": "65.21.198.18:12856"
+      },
+      {
+        "id": "cefbfea7efe893b060f6b755bde13072ba8201e6",
+        "address": "31.7.196.25:26656"
+      },
+      {
+        "id": "c0e2260705c09a3bcc089bc4b692622d6f5a11a4",
+        "address": "217.28.48.238:12856"
+      },
+      {
+        "id": "cc685867bc0854a0cfe9fedb929c5fcf7db169b2",
+        "address": "65.21.29.115:12856"
+      },
+      {
+        "id": "e956962a9a6b88e5905af2f1c18692b2370b815c",
+        "address": "184.107.110.141:10000"
+      },
+      {
+        "id": "69c3ecd3636c27ba57227715a137513bed0c7bcd",
+        "address": "148.251.13.186:12856"
+      },
+      {
+        "id": "37201c92625df2814a55129f73f10ab6aa2edc35",
+        "address": "95.214.53.214:26696"
+      },
+      {
+        "id": "902bdfa1bf760f8816a7a8a7df0a80f97f15bee1",
+        "address": "54.179.209.23:26656"
+      },
+      {
+        "id": "d3dd4556b46689490d45f3e8dca6037d516f5416",
+        "address": "137.220.49.147:26656"
+      },
+      {
+        "id": "863db1158b0a58e00a6435786886bb8108130ff8",
+        "address": "18.136.180.58:26656"
+      },
+      {
+        "id": "e1b058e5cfa2b836ddaa496b10911da62dcf182e",
+        "address": "169.155.44.150:26656"
+      },
+      {
+        "id": "a988534ab1e4bc42aad26ea7ec7bdc7d5415a14c",
+        "address": "38.132.56.27:32662"
+      },
+      {
+        "id": "8cb4f379095f95097c441bd5aef014413b7ceabb",
+        "address": "37.59.21.96:12856"
+      },
+      {
+        "id": "cb6ae22e1e89d029c55f2cb400b0caa19cbe5523",
+        "address": "172.111.52.52:32662"
+      },
+      {
+        "id": "6f497ca71e019da982ad7a441ddfa7e0f23925b3",
+        "address": "8.40.118.101:12456"
+      },
+      {
+        "id": "2a3ba81a7ddb00016af1593f925aed390c4bcca9",
+        "address": "64.227.108.195:26656"
       }
     ]
   },
