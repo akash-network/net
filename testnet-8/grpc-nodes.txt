@@ -1,0 +1,1 @@
+rpc.dev.akash.pub:30090
