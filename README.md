@@ -6,10 +6,8 @@ Currently available networks:
 
 | Network                    | Status             | Network version (binary version) | Description                                            |
 | -------------------------- | ------------------ | -------------------------------- | ------------------------------------------------------ |
-| [mainnet](mainnet)         | :heavy_check_mark: | v0.38.0 (0.38.2)                 | Akash Network mainnet network.                         |
-| [sandbox-2](sandbox-2)     | :heavy_check_mark: | v0.38.0 (0.38.2)                 | Akash Network sandbox playground network.              |
-| [testnet-7](testnet-7)     | :heavy_check_mark: | v1.0.0-rc43                      | Akash Network testnet-7 test network. Version constantly changing - check with core team for latest. |
-| [testnet-02](testnet-02)   | :x:                | v0.23.1-rc0                      | Akash Network testnet-02 (deprecated).                |
+| [mainnet](mainnet)         | :heavy_check_mark: | v1.1.0                           | Akash Network mainnet network.                         |
+| [sandbox-2](sandbox-2)     | :heavy_check_mark: | v1.1.0                           | Akash Network sandbox playground network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
@@ -51,12 +49,6 @@ AKASH_NET="$AKASH_NET_BASE/mainnet"
 
 # sandbox-2
 AKASH_NET="$AKASH_NET_BASE/sandbox-2"
-
-# testnet-7
-AKASH_NET="$AKASH_NET_BASE/testnet-7"
-
-# testnet-02 (deprecated)
-AKASH_NET="$AKASH_NET_BASE/testnet-02"
 ```
 
 ## Fetching Information
