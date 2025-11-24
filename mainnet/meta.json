@@ -12,9 +12,9 @@
       "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/mainnet/genesis.json"
     },
     "git_repo": "github.com/akash-network/node",
-    "recommended_version": "v1.0.0",
+    "recommended_version": "v1.1.0",
     "compatible_versions": [
-      "v1.0.0"
+      "v1.1.1"
     ],
     "binaries": {
       "darwin/amd64": "https://github.com/akash-network/node/releases/download/v1.0.0/akash_darwin_all.zip?checksum=sha256:81b1040a4030de081aa8dc071515bc42424bf3c18694774c57614b567986e25c",
