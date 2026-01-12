@@ -1,8 +1,8 @@
 {
   "app_name": "akash",
-  "app_version": "2.0.0-b0",
-  "genesis_time": "2025-11-14T15:46:49.738033357Z",
-  "chain_id": "testnet-8",
+  "app_version": "2.1.0-a0",
+  "genesis_time": "2026-01-12T20:24:41.007511495Z",
+  "chain_id": "testnet-9",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -21,7 +21,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "akash1kue7ptc5na88ld8apylujh8tnl4ej8mezstgxe",
+          "address": "akash14thrmhecqekmrem5xyqhdaynjcjvaac0fes7x4",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -48,7 +48,7 @@
       },
       "balances": [
         {
-          "address": "akash1kue7ptc5na88ld8apylujh8tnl4ej8mezstgxe",
+          "address": "akash14thrmhecqekmrem5xyqhdaynjcjvaac0fes7x4",
           "coins": [
             {
               "denom": "uakt",
@@ -65,6 +65,29 @@
       ],
       "denom_metadata": [],
       "send_enabled": []
+    },
+    "bme": {
+      "params": {
+        "enabled": true,
+        "oracle_twap_window": "3600s",
+        "oracle_outlier_threshold_bps": 150,
+        "circuit_breaker_warn_threshold": 9500,
+        "circuit_breaker_halt_threshold": 9000,
+        "mint_spread_bps": 25,
+        "settle_spread_bps": 0,
+        "settlement_epoch_blocks": "1",
+        "min_runway_blocks": "100800",
+        "snapshot_interval_blocks": "0",
+        "snapshot_retention_seconds": "0",
+        "snapshot_bucket_duration": "0"
+      },
+      "state": {
+        "last_updated": "0",
+        "burned": [],
+        "minted": [],
+        "balances": [],
+        "remint_credits": []
+      }
     },
     "cert": {
       "certificates": []
@@ -105,6 +128,46 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
+    "epochs": {
+      "epochs": [
+        {
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        }
+      ]
+    },
     "escrow": {
       "accounts": [],
       "payments": []
@@ -136,10 +199,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "akashvaloper1kue7ptc5na88ld8apylujh8tnl4ej8megj9wkn",
+                "validator_address": "akashvaloper14thrmhecqekmrem5xyqhdaynjcjvaac0rm7ckl",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "SiUUfF6eq1AQsvuUPalZ2VTsDPaBGyfUsQv8Re6qxso="
+                  "key": "0hncnWafI0CQCk4+MlN1oOmK1lHmgU/SFccuQz/cPPs="
                 },
                 "value": {
                   "denom": "uakt",
@@ -147,7 +210,7 @@
                 }
               }
             ],
-            "memo": "73f314ed45af0514310201ac204c55dfeb2b43c7@10.233.102.137:26656",
+            "memo": "042c332aa652e61778396a1f7e1b8e45ff7b28b0@10.233.102.164:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -159,7 +222,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A+lsJ+IZeijjJCwIe+YksRyZmpT/aeCFxgYZazOwMPj/"
+                  "key": "A23ZBHkL+RG4ei7/SOOA4O8Ff3V4K25dUb9ihDQ/y/jz"
                 },
                 "mode_info": {
                   "single": {
@@ -183,7 +246,7 @@
             "tip": null
           },
           "signatures": [
-            "neNtrAy/ljsRMNR0ZusYyTrdOha4VCG/6ad3ggzyl3gG50o1py60k5KQhtpOdDxYl3GgiLevwFTwha1AhU9Guw=="
+            "AuJHQbjvi+a1dXZKTHTeZTU/OLALvy21YVGACEZ/gSAm+zA9MzjiRFgaxnYju947K0dQXaz1B3lLcGDxYog8YQ=="
           ]
         }
       ]
@@ -294,6 +357,24 @@
         "blocks_per_year": "6311520"
       }
     },
+    "oracle": {
+      "params": {
+        "sources": [],
+        "min_price_sources": 0,
+        "max_price_staleness_blocks": "0",
+        "twap_window": "0",
+        "max_price_deviation_bps": "0",
+        "feed_contract_params": {
+          "name": "pyth",
+          "config": {
+            "@type": "/akash.oracle.v1.PythContractParams",
+            "akt_price_feed_id": "0x1c5d745dc0e0c8a0034b6c3d3a8e5d34e4e9b79c9ab2f4b3e6a8e7f0c9e8a5b4"
+          }
+        }
+      },
+      "prices": [],
+      "latest_height": []
+    },
     "provider": {
       "providers": []
     },
@@ -324,17 +405,6 @@
       "unbonding_delegations": [],
       "redelegations": [],
       "exported": false
-    },
-    "take": {
-      "params": {
-        "denom_take_rates": [
-          {
-            "denom": "uakt",
-            "rate": 2
-          }
-        ],
-        "default_take_rate": 20
-      }
     },
     "transfer": {
       "port_id": "transfer",
