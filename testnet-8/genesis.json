@@ -1,8 +1,8 @@
 {
   "app_name": "akash",
-  "app_version": "2.1.0-a0",
-  "genesis_time": "2026-01-12T20:24:41.007511495Z",
-  "chain_id": "testnet-9",
+  "app_version": "2.1.0-a2",
+  "genesis_time": "2026-01-16T23:56:21.027210724Z",
+  "chain_id": "testnet-8",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -21,7 +21,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "akash14thrmhecqekmrem5xyqhdaynjcjvaac0fes7x4",
+          "address": "akash1dlt753q9hfveqypjxtf2nn087y7ran0faw7n6x",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -48,7 +48,7 @@
       },
       "balances": [
         {
-          "address": "akash14thrmhecqekmrem5xyqhdaynjcjvaac0fes7x4",
+          "address": "akash1dlt753q9hfveqypjxtf2nn087y7ran0faw7n6x",
           "coins": [
             {
               "denom": "uakt",
@@ -199,10 +199,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "akashvaloper14thrmhecqekmrem5xyqhdaynjcjvaac0rm7ckl",
+                "validator_address": "akashvaloper1dlt753q9hfveqypjxtf2nn087y7ran0fhvs42v",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "0hncnWafI0CQCk4+MlN1oOmK1lHmgU/SFccuQz/cPPs="
+                  "key": "moVtZOFSK1I5fswmQgQEYTN8Yz2Eyy7pRfOIOLkehP8="
                 },
                 "value": {
                   "denom": "uakt",
@@ -210,7 +210,7 @@
                 }
               }
             ],
-            "memo": "042c332aa652e61778396a1f7e1b8e45ff7b28b0@10.233.102.164:26656",
+            "memo": "5d83f6ccea7f82e92e03f140d75e748145e7b3cc@10.233.102.189:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -222,7 +222,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A23ZBHkL+RG4ei7/SOOA4O8Ff3V4K25dUb9ihDQ/y/jz"
+                  "key": "A0plghuqrSyuVjzl+DEQKN810yPGQYwCucRoVmzr2Xok"
                 },
                 "mode_info": {
                   "single": {
@@ -246,7 +246,7 @@
             "tip": null
           },
           "signatures": [
-            "AuJHQbjvi+a1dXZKTHTeZTU/OLALvy21YVGACEZ/gSAm+zA9MzjiRFgaxnYju947K0dQXaz1B3lLcGDxYog8YQ=="
+            "ccNCNnraRw7K/P5eX9h1+qGqni6qW0QZg9JvAgQB50Jep6AEXNMyDeeoqXwn53WEK8ax9c9jKrgZKqFOH43WaA=="
           ]
         }
       ]
@@ -274,7 +274,7 @@
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "86400s",
+        "expedited_voting_period": "1800s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
@@ -364,13 +364,12 @@
         "max_price_staleness_blocks": "0",
         "twap_window": "0",
         "max_price_deviation_bps": "0",
-        "feed_contract_params": {
-          "name": "pyth",
-          "config": {
+        "feed_contracts_params": [
+          {
             "@type": "/akash.oracle.v1.PythContractParams",
             "akt_price_feed_id": "0x1c5d745dc0e0c8a0034b6c3d3a8e5d34e4e9b79c9ab2f4b3e6a8e7f0c9e8a5b4"
           }
-        }
+        ]
       },
       "prices": [],
       "latest_height": []
