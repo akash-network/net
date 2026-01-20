@@ -1,0 +1,61 @@
+{
+  "chain_name": "testnet-oracle",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "testnet-oracle",
+  "chain_id": "testnet-oracle",
+  "bech32_prefix": "akash",
+  "daemon_name": "akash",
+  "node_home": "$HOME/.akash",
+  "codebase": {
+    "genesis": {
+      "genesis_url": "https://gist.githubusercontent.com/chainzero/4a10e1e5c2c6ff03617c31534c48d253/raw/7d6df2c71b8515cc7d447a36e8214ac7b07a1488/testnet8genesisv4.json"
+    },
+    "git_repo": "github.com/ovrclk/akash",
+    "recommended_version": "v2.0.0-b1",
+    "compatible_versions": ["v2.0.0-b1"],
+    "binaries": {
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a9/akash_2.1.0-a9_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a9/akash_2.1.0-a9_linux_arm64.zip"
+    }
+  },
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uakt",
+        "fixed_min_gas_price": 0.00025,
+        "low_gas_price": 0.00025,
+        "average_gas_price": 0.0025,
+        "high_gas_price": 0.025
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "c7c34be4b32af9d399173f94406461f0de4e03d9",
+        "address": "rpc.dev.akash.pub:30656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnetoraclerpc.akashnet.net:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnetoracleapi.akashnet.net",
+        "provider": "akash"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "rpc.dev.akash.pub:30090",
+        "provider": "akash"
+      }
+    ]
+  }
+}
