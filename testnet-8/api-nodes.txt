@@ -1,1 +1,1 @@
-https://testnetoracleapi.akashnet.net
+https://testnetapi.akashnet.net
