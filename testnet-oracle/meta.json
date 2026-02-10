@@ -9,14 +9,14 @@
   "node_home": "$HOME/.akash",
   "codebase": {
     "genesis": {
-      "genesis_url": "https://gist.githubusercontent.com/chainzero/e91e7b4d1ac7ff49255563b9527176fb/raw/a63e5e1114949e783d5f6f10b72d5d8d0e46211b/testnetOracleGenesisV2.json"
+      "genesis_url": "https://gist.githubusercontent.com/chainzero/abe76e8615c1c3f2005c87ee73d747bb/raw/df900d76018965892184b1262d899b71b4a9e1be/testnetOracleGenesisV3.json"
     },
     "git_repo": "github.com/ovrclk/akash",
     "recommended_version": "v2.1.0-a11",
     "compatible_versions": ["v2.1.0-a11"],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a11/akash_2.1.0-a11_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a11/akash_2.1.0-a11_linux_arm64.zip"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a15/akash_2.1.0-a15_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a15/akash_2.1.0-a15_linux_arm64.zip"
     }
   },
   "fees": {
@@ -34,7 +34,7 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "32cae6632358b4db63b706322d4430e80a984a26",
+        "id": "b3d3208b43b3426978de0605698c94e8cb6211d8",
         "address": "rpc.dev.akash.pub:30656"
       }
     ]
