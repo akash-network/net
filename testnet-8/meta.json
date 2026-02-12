@@ -15,8 +15,8 @@
     "recommended_version": "v2.1.0-a11",
     "compatible_versions": ["v2.1.0-a11"],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a15/akash_2.1.0-a15_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a15/akash_2.1.0-a15_linux_arm64.zip"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a17/akash_2.1.0-a17_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a17/akash_2.1.0-a17_linux_arm64.zip"
     }
   },
   "fees": {
