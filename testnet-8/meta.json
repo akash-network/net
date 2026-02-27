@@ -9,14 +9,14 @@
   "node_home": "$HOME/.akash",
   "codebase": {
     "genesis": {
-      "genesis_url": "https://gist.githubusercontent.com/chainzero/2f9776c09328b468ef967d80ae12a47b/raw/fb55ac211733289b4a45061ea050464035793799/testnet8genesisv6.json"
+      "genesis_url": "https://gist.githubusercontent.com/chainzero/a2ea3a67125f1523f17dd860f49affd2/raw/ed894eb1a2da8d997a96ecb08613c568d2819f1e/testnet8genesisv10.json"
     },
     "git_repo": "github.com/ovrclk/akash",
-    "recommended_version": "v2.1.0-a11",
-    "compatible_versions": ["v2.1.0-a11"],
+    "recommended_version": "v2.1.0-a22",
+    "compatible_versions": ["v2.1.0-a22"],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a17/akash_2.1.0-a17_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a17/akash_2.1.0-a17_linux_arm64.zip"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a22/akash_2.1.0-a22_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a22/akash_2.1.0-a22_linux_arm64.zip"
     }
   },
   "fees": {
@@ -34,7 +34,7 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "616df27e29f7705d5141ba9f76e0ec7ba0969ae4",
+        "id": "61eb949a76864818925b0481a89db3a816c6f544",
         "address": "rpc.dev.akash.pub:30656"
       }
     ]
