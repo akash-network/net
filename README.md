@@ -6,8 +6,8 @@ Currently available networks:
 
 | Network                    | Status             | Network version (binary version) | Description                                            |
 | -------------------------- | ------------------ | -------------------------------- | ------------------------------------------------------ |
-| [mainnet](mainnet)         | :heavy_check_mark: | v1.1.0                           | Akash Network mainnet network.                         |
-| [sandbox-2](sandbox-2)     | :heavy_check_mark: | v1.1.0                           | Akash Network sandbox playground network.              |
+| [mainnet](mainnet)         | :heavy_check_mark: | v1.2.0                           | Akash Network mainnet network.                         |
+| [sandbox-2](sandbox-2)     | :heavy_check_mark: | v1.2.0                           | Akash Network sandbox playground network.              |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
