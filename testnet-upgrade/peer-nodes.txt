@@ -1,0 +1,2 @@
+df9ba99fd8c469cfc0abb786bba49e05b79bb8f2@p2p.testnet-upgrade.aksh.pw:26656
+901fc09046ac5713743d863a0de4c0ccb86ccc33@p2p.testnet-upgrade.aksh.pw:26655
