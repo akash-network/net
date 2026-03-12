@@ -1,0 +1,8 @@
+{
+    "binaries": {
+        "darwin/amd64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc5/akash_2.0.0-rc5_darwin_all.zip?checksum=sha256:69150adce9d288e618a969705d4e8aed1ac81e1e77db2cb6319d60e32e358d93",
+        "darwin/arm64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc5/akash_2.0.0-rc5_darwin_all.zip?checksum=sha256:69150adce9d288e618a969705d4e8aed1ac81e1e77db2cb6319d60e32e358d93",
+        "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc5/akash_2.0.0-rc5_linux_amd64.zip?checksum=sha256:bf8ef70a3a9985264d8c6d29f9cea8a397647530cc4ec5e484db0d89ab9c694a",
+        "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc5/akash_2.0.0-rc5_linux_arm64.zip?checksum=sha256:f61653874e33eadf9797881adfaf424f8cd5905c50a67f6ab8da392efd3c6e6f"
+    }
+}
