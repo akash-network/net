@@ -1,22 +1,22 @@
 {
-  "chain_name": "testnet-8",
+  "chain_name": "testnet-bme",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "testnet-8",
-  "chain_id": "testnet-8",
+  "pretty_name": "testnet-bme",
+  "chain_id": "testnet-bme",
   "bech32_prefix": "akash",
   "daemon_name": "akash",
   "node_home": "$HOME/.akash",
   "codebase": {
     "genesis": {
-      "genesis_url": "https://gist.githubusercontent.com/chainzero/a2ea3a67125f1523f17dd860f49affd2/raw/ed894eb1a2da8d997a96ecb08613c568d2819f1e/testnet8genesisv10.json"
+      "genesis_url": "https://gist.githubusercontent.com/chainzero/36ec8c2e8fd16d832b9819dedc1911c5/raw/a53a59f565afb6899a3772efbf5f49a6d4733df2/testnetbmegenesisv6.json"
     },
     "git_repo": "github.com/ovrclk/akash",
-    "recommended_version": "v2.1.0-a22",
-    "compatible_versions": ["v2.1.0-a22"],
+    "recommended_version": "v2.0.0-rc10",
+    "compatible_versions": ["v2.0.0-rc10"],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.1.0-a22/akash_2.1.0-a22_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.1.0-a22/akash_2.1.0-a22_linux_arm64.zip"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc10/akash_2.0.0-rc10_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.0.0-rc10/akash_2.0.0-rc10_linux_arm64.zip"
     }
   },
   "fees": {
@@ -34,7 +34,7 @@
     "seeds": [],
     "persistent_peers": [
       {
-        "id": "61eb949a76864818925b0481a89db3a816c6f544",
+        "id": "a146e032612f68cce7ec5f06d52992ce9c39d717",
         "address": "rpc.dev.akash.pub:30656"
       }
     ]
