@@ -1,1 +1,0 @@
-https://rpc.testnet-upgrade.aksh.pw:443
