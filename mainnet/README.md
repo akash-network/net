@@ -1,2 +1,0 @@
-# Mainnet Information
-

@@ -12,13 +12,15 @@
       "genesis_url": "https://raw.githubusercontent.com/akash-network/net/main/sandbox-2/genesis.json"
     },
     "git_repo": "github.com/akash-network/node",
-    "recommended_version": "v1.2.0",
-    "compatible_versions": ["v1.2.0"],
+    "recommended_version": "v2.0.0",
+    "compatible_versions": [
+      "v2.0.0"
+    ],
     "binaries": {
-      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v1.2.0/akash_darwin_all.zip?checksum=sha256:cda8be5aea676759bbe4a7c772a28f9f5fc838340843b3708b0b3a86287c8729",
-      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v1.2.0/akash_darwin_all.zip?checksum=sha256:cda8be5aea676759bbe4a7c772a28f9f5fc838340843b3708b0b3a86287c8729",
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v1.2.0/akash_linux_amd64.zip?checksum=sha256:5b8e1cdbb4ecd22e7b002c3bd25e0510bdabdf5dddf332cf7defb5161b891960",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v1.2.0/akash_linux_arm64.zip?checksum=sha256:7e5a67c225b510729d323446ab9b86178bef26c349e52aba937ece93e6c8dfad"
+      "darwin/amd64": "https://github.com/akash-network/node/releases/download/v2.0.0/akash_2.0.0_darwin_all.zip?checksum=sha256:e949dd736408e6a0e3449605233eb2ddeeae0129a68d15b7a09eefacf47eb07f",
+      "darwin/arm64": "https://github.com/akash-network/node/releases/download/v2.0.0/akash_2.0.0_darwin_all.zip?checksum=sha256:e949dd736408e6a0e3449605233eb2ddeeae0129a68d15b7a09eefacf47eb07f",
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v2.0.0/akash_2.0.0_linux_amd64.zip?checksum=sha256:e3ef47d6ec709c8dc4726185e5f4c922e71dbf163289d9fe558ccee1ce094db4",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v2.0.0/akash_2.0.0_linux_arm64.zip?checksum=sha256:ac8d8497b14d9258b8c397914634a3deff9e803255bd8f40b65fba37d5073835"
     }
   },
   "fees": {
@@ -38,13 +40,18 @@
       {
         "id": "a7cac6edcd8b1a8c28ca3e235b213f5d20c16d1a",
         "address": "p2p.sandbox-2.aksh.pw:26656"
+      },
+      {
+        "id": "99e2a439ee454c0e91169f397b3d1312becc12c4",
+        "address": "p2p.sandbox-2.aksh.pw:26655"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.sandbox-2.aksh.pw:443"
+        "address": "https://rpc.sandbox-2.aksh.pw:443",
+        "provider": "akash"
       }
     ],
     "rest": [
@@ -59,5 +66,17 @@
         "provider": "akash"
       }
     ]
-  }
+  },
+  "faucets": [
+    {
+      "url": "http://faucet.sandbox-2.aksh.pw/"
+    }
+  ],
+  "explorers": [
+    {
+      "kind": "custom",
+      "url": "https://explorer.sandbox-2.aksh.pw/akash",
+      "tx_page": "https://explorer.sandbox-2.aksh.pw/akash/transactions/${txHash}"
+    }
+  ]
 }
