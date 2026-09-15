@@ -48,7 +48,7 @@
         "address": "162.55.245.149:2140"
       },
       {
-        "id": "0d8434034e645d305a0cf294e5670ee59e5e55f0",
+        "id": "c318e3febe1bac5dc1b2b3e43d906517321f1386",
         "address": "148.251.53.24:12856"
       },
       {
@@ -314,6 +314,10 @@
       {
         "address": "https://akash-rpc.publicnode.com:443",
         "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "https://akash-mainnet-rpc.crouton.digital",
+        "provider": "Crouton Digital"
       }
     ],
     "rest": [
@@ -364,6 +368,10 @@
       {
         "address": "https://lcd.akash.bronbro.io:443",
         "provider": "Bro_n_Bro"
+      },
+      {
+        "address": "https://akash-mainnet-api.crouton.digital",
+        "provider": "Crouton Digital"
       }
     ],
     "grpc": [
@@ -374,6 +382,10 @@
       {
         "address": "akash-grpc.publicnode.com:443",
         "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "akash-mainnet-grpc.crouton.digital:12890",
+        "provider": "Crouton Digital"
       }
     ]
   },
@@ -387,6 +399,11 @@
       "kind": "ping-pub",
       "url": "https://ping.pub/akash",
       "tx_page": "https://ping.pub/akash/tx/${txHash}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/akash/overview",
+      "tx_page": "https://explorer.crouton.digital/mainnets/akash/transactions/${txHash}"
     }
   ]
 }
